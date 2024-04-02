@@ -3,10 +3,12 @@
 @rendermode @(new InteractiveServerRenderMode(prerender: false))
 @implements IAsyncDisposable
 @inject IConfiguration Configuration
+@inject NotificationUIService NotificationUIService
 
 @using Azure.Messaging.WebPubSub
 @using Azure.Messaging.WebPubSub.Clients
 @using Dottor.Umarell.ParentalControl.Client.Models
+@using Dottor.Umarell.ParentalControl.Client.Services
 
 <h3>ServerTelemetryData</h3>
 

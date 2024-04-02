@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using Dottor.Umarell.ParentalControl.Client.Components
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,15 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="/" />
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <link href="_content/Microsoft.FluentUI.AspNetCore.Components/css/reboot.css" rel="stylesheet" />
     <link rel="stylesheet" href="app.css" />
     <link rel="stylesheet" href="Dottor.Umarell.ParentalControl.styles.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <HeadOutlet @rendermode="RenderModeForPage" />
+    <HeadOutlet  />
 </head>
 
 <body>
-    <Routes @rendermode="RenderModeForPage" />
+    <Routes />
     <script src="_framework/blazor.web.js"></script>
+
+    <FluentUIServices @rendermode="RenderModeForPage" />
 </body>
 
 </html>

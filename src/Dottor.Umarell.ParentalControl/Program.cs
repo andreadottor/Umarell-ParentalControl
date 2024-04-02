@@ -1,7 +1,9 @@
 using Azure.Messaging.WebPubSub;
 using Dottor.Umarell.ParentalControl.Client.Models;
+using Dottor.Umarell.ParentalControl.Client.Services;
 using Dottor.Umarell.ParentalControl.Components;
 using Dottor.Umarell.ParentalControl.Services;
+using Microsoft.FluentUI.AspNetCore.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,11 @@ builder.Services.AddRazorComponents()
 
 
 builder.Services.AddHostedService<UmarellSimulatorService>();
+builder.Services.AddScoped<NotificationUIService>();
+builder.Services.AddScoped<IGeofenceService, GeofenceService>();
+
+builder.Services.AddFluentUIComponents();
+
 
 
 var app = builder.Build();

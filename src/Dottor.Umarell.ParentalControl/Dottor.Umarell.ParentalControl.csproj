@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Dottor.Umarell.ParentalControl.Client\Dottor.Umarell.ParentalControl.Client.csproj" />
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.17.4" />
     <PackageReference Include="Azure.Messaging.WebPubSub" Version="1.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.3" />
   </ItemGroup>

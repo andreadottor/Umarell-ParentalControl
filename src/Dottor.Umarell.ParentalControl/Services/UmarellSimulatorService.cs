@@ -9,23 +9,29 @@ using System.Xml.Linq;
 using Azure.Messaging.WebPubSub;
 using Azure.Core;
 using Dottor.Umarell.ParentalControl.Client.Models;
+using Azure.Messaging.ServiceBus;
 
 public class UmarellSimulatorService : BackgroundService
 {
 
-    private readonly IConfiguration configuration;
-    private readonly WebPubSubServiceClient _serviceClient;
+    private readonly WebPubSubServiceClient           _pubSubClient;
+    private readonly ServiceBusClient                 _serviceBusClient;
+    private readonly ServiceBusSender                 _serviceBusSender;
     private readonly ILogger<UmarellSimulatorService> _logger;
 
     public UmarellSimulatorService(IConfiguration configuration,
-                                    ILogger<UmarellSimulatorService> logger)
+                                   ILogger<UmarellSimulatorService> logger)
     {
-        this.configuration = configuration;
-        string webPubSubConnectionString = configuration.GetConnectionString("WebPubSubConnectionString");
-        ArgumentNullException.ThrowIfNullOrWhiteSpace(webPubSubConnectionString, nameof(webPubSubConnectionString));
-
-        _serviceClient = new WebPubSubServiceClient(webPubSubConnectionString, "hub");
         _logger = logger;
+        string webPubSubConnectionString  = configuration.GetConnectionString("WebPubSubConnectionString");
+        string serviceBusConnectionString = configuration.GetConnectionString("ServiceBusConnectionString");
+        ArgumentNullException.ThrowIfNullOrWhiteSpace(webPubSubConnectionString, nameof(webPubSubConnectionString));
+        ArgumentNullException.ThrowIfNullOrWhiteSpace(serviceBusConnectionString, nameof(serviceBusConnectionString));
+
+        _pubSubClient     = new WebPubSubServiceClient(webPubSubConnectionString, "hub");
+        
+        _serviceBusClient = new ServiceBusClient(serviceBusConnectionString);
+        _serviceBusSender = _serviceBusClient.CreateSender("42");
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -53,7 +59,10 @@ public class UmarellSimulatorService : BackgroundService
                     Latitude = lat,
                     Longitude = lon
                 };
-                await SendMessageAsync(data, stoppingToken);
+                await SendTelemetryDataAsync(data, stoppingToken);
+
+                // TODO: da verificare la posizione
+                await SendUmarellGeofenceWarning(data, stoppingToken);
                 await Task.Delay(2000, stoppingToken);
 
                 if (stoppingToken.IsCancellationRequested)
@@ -62,16 +71,29 @@ public class UmarellSimulatorService : BackgroundService
         }
     }
 
-    private async Task SendMessageAsync(UmarellTelemetryData data, CancellationToken stoppingToken)
+    private async Task SendTelemetryDataAsync(UmarellTelemetryData data, CancellationToken stoppingToken)
     {
         var json = JsonSerializer.Serialize(data);
 
         var request = RequestContent.Create(json);
-        await _serviceClient.SendToUserAsync("42", request, ContentType.ApplicationJson);
+        await _pubSubClient.SendToUserAsync("42", request, ContentType.ApplicationJson);
 
         if (_logger.IsEnabled(LogLevel.Information))
         {
-            _logger.LogInformation("Message sent: {data}", data);
+            _logger.LogInformation("SendTelemetryDataAsync: {data}", data);
+        }
+    }
+
+    private async Task SendUmarellGeofenceWarning(UmarellTelemetryData data, CancellationToken stoppingToken)
+    {
+        var json = JsonSerializer.Serialize(data);
+
+        var message = new ServiceBusMessage(Encoding.UTF8.GetBytes(json));
+        await _serviceBusSender.SendMessageAsync(message, stoppingToken);
+
+        if (_logger.IsEnabled(LogLevel.Information))
+        {
+            _logger.LogInformation("SendUmarellGeofenceWarning: {data}", data);
         }
     }
 }

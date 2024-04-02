@@ -2,12 +2,20 @@
 @rendermode @(new InteractiveWebAssemblyRenderMode(prerender: false))
 @implements IAsyncDisposable
 
+@inject HttpClient Http
+@inject IToastService ToastService
+
 @using Azure.Messaging.WebPubSub.Clients
 @using Dottor.Umarell.ParentalControl.Client.Models
-@inject HttpClient Http
+
 <h3>WasmTelemetryData</h3>
 
 <h5>@_text</h5>
+
+<FluentCard>
+    <h2>Hello World!</h2>
+    <FluentButton Appearance="@Appearance.Accent">Click Me</FluentButton>
+</FluentCard>
 
 @code {
     private WebPubSubClient? _client;
@@ -34,6 +42,7 @@
     {
         var telemetryData = e.Message.Data.ToObjectFromJson<UmarellTelemetryData>();
         _text = $"lat {telemetryData.Latitude}, lon: {telemetryData.Longitude}";
+        ToastService.ShowToast(ToastIntent.Info, _text);
         await InvokeAsync(StateHasChanged);
     }
 
