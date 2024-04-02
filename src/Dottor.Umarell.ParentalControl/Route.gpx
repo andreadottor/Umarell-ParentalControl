@@ -1,0 +1,3565 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="41.861776562000045" minlon="12.459260487000051" maxlat="41.942028617000062" maxlon="12.572393745000056"/></metadata>                  
+<trk>
+  <name>01 - Arco di Costantino - Circo Massimo</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>0.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.00555914997095</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/Arco-Costantino.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>0.6</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>0.6</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sampietrini/Asfalto</ogr:FONDO>
+    <ogr:CANTIERE>Una delle due carreggiate di via San Gregorio va trasformata in promenade ciclopedonale.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.889616063000062" lon="12.490587833000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.884347835000028" lon="12.488813031000063">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>02 - Circo Massimo - Terme di Caracalla</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>1.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.00902715171454</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/02.Circo.Massimo.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>0.9</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>1.5</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sterrato/Pista ciclabile</ogr:FONDO>
+    <ogr:CANTIERE>Una parte di via di Valle delle Camene va riservata al GRAB, mentre all’altezza delle Terme di Caracalla il percorso si ricongiunge alla ciclabile esistente.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.884347835000028" lon="12.488813031000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.883791041000052" lon="12.489569699000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.883248524000066" lon="12.490269261000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.882748837000065" lon="12.490983099000061">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.882520409000051" lon="12.491340018000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.882234873000073" lon="12.491825428000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.881992168000068" lon="12.492225178000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.881483077000041" lon="12.492960216000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.881131929000048" lon="12.493471061000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.880932230000042" lon="12.493799363000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.880782056000044" lon="12.493870173000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.880524841000067" lon="12.493868028000065">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.880353897000077" lon="12.493990336000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.879962482000053" lon="12.494518195000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.879609406000043" lon="12.494990264000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.879566270000055" lon="12.495159779000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.879567868000038" lon="12.495305692000045">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.879714850000028" lon="12.495548163000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.879502365000064" lon="12.49590650600004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.879519939000033" lon="12.495981608000022">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>03 - Porta San Sebastiano - Appia Antica</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>0.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0172093019359</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/san_sebastiano.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>1.8</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>3.3</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sampietrini</ogr:FONDO>
+    <ogr:CANTIERE>Via di Porta San Sebastiano va definitivamente pedonalizzata, così come il primo tratto dell’Appia Antica. L’idea del GRAB è quella di dare continuità fisica alla Roma aarcheologica, dal Colosseo alla Regina Viarum.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.879509555000027" lon="12.496005212000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.879250738000053" lon="12.49648157200005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.878959967000071" lon="12.496872102000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.878033326000036" lon="12.498142396000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.877240877000077" lon="12.499129449000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.876266280000038" lon="12.499979173000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875298059000045" lon="12.500674401000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.874460839000051" lon="12.501116429000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.873454244000072" lon="12.501562749000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.872112092000066" lon="12.502021943000045">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.871195964000037" lon="12.501980140000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.870769376000055" lon="12.501961087000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.869806954000069" lon="12.502116959000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.868132408000065" lon="12.502634492000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.867222264000077" lon="12.502940847000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866471550000028" lon="12.503472482000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866075256000045" lon="12.504519616000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866043296000043" lon="12.504837190000046">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>04 - Parco della Caffarella - Almone</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>2.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0180774268702</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/caffarella1.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>1.7</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>5.0</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sterrato</ogr:FONDO>
+    <ogr:CANTIERE>Va manutenuto lo sterrato per ricompattare e rendere omogeneo il fondo.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.866043296000043" lon="12.504837190000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865953310000066" lon="12.505091295000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865910964000079" lon="12.505282402000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865966893000063" lon="12.505523801000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866062771000031" lon="12.505738378000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866100723000045" lon="12.505915403000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866066766000074" lon="12.50616216700007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865906969000036" lon="12.506524265000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865811091000069" lon="12.506835401000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865715212000055" lon="12.507111669000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865591369000072" lon="12.507320881000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86541758900006" lon="12.507607877000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865289650000079" lon="12.50781709000006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865167803000077" lon="12.508117497000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865101886000048" lon="12.508324027000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865149826000049" lon="12.508495688000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865329699000029" lon="12.508734405000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865715212000055" lon="12.509053588000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865857033000054" lon="12.509225249000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865906969000036" lon="12.509313762000033">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865831066000055" lon="12.509528339000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86532161000008" lon="12.509938717000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865129851000063" lon="12.510448337000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865103884000064" lon="12.511084020000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86499202400006" lon="12.511620462000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864884159000042" lon="12.512288332000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864804259000039" lon="12.512738943000045">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864646457000049" lon="12.513664305000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864520614000071" lon="12.514439464000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864512624000042" lon="12.515201211000033">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864494646000026" lon="12.515989780000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864474671000039" lon="12.516402841000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864404758000035" lon="12.516663015000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864191024000036" lon="12.516917825000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.863777537000033" lon="12.517194092000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.863394010000036" lon="12.517443538000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86292258800006" lon="12.517781496000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862602978000041" lon="12.518004119000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862149528000032" lon="12.518352807000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.861823921000052" lon="12.518712223000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.861776562000045" lon="12.518935205000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.861959600000034" lon="12.519265325000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862867922000078" lon="12.520326834000059">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>05 - Almone - Arco di Travertino</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>0.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.022990104178</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/almone.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>2.0</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>7.0</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sterrato/Asfalto</ogr:FONDO>
+    <ogr:CANTIERE>Il GRAB richiede nell’ultima parte di questo tratto la realizzazione ex novo di un percorso ciclabile protetto.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.862867922000078" lon="12.520326834000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86350236100003" lon="12.521068270000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.863958922000052" lon="12.520449886000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864235535000034" lon="12.520387425000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864473481000061" lon="12.520437988000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86486906600004" lon="12.520607525000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865376955000045" lon="12.520783630000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865504848000057" lon="12.521029202000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865648340000064" lon="12.521452234000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865853568000034" lon="12.521520643000031">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86614583100004" lon="12.521521742000061">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866436492000048" lon="12.521283983000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866487100000029" lon="12.521401670000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866444538000053" lon="12.521531542000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866305902000079" lon="12.521907852000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866466279000065" lon="12.523007806000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86694613800006" lon="12.524380294000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.867248527000072" lon="12.524676403000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.867322259000048" lon="12.524834380000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86730728200007" lon="12.525619137000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.867376423000053" lon="12.525723366000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865608386000076" lon="12.528751099000033">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865154785000072" lon="12.529376367000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864669375000062" lon="12.529985509000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86415541100007" lon="12.530642240000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.863641448000067" lon="12.531451257000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.863374948000057" lon="12.53189859500003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862213771000029" lon="12.532640987000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862375575000044" lon="12.532974112000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.863051341000073" lon="12.532897969000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.863641448000067" lon="12.532983630000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864193483000065" lon="12.53335482600005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864697929000044" lon="12.533916378000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865249963000053" lon="12.534401788000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865583088000051" lon="12.534744431000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865773445000059" lon="12.534906234000061">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865698806000069" lon="12.53500753000003">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>06 - Arco di Travertino - Tor Fiscale</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>2.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0138770039538</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/tor_fiscale_1.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>1.2</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>8.2</ogr:DIST_TOTAL>
+    <ogr:FONDO>Asfalto</ogr:FONDO>
+    <ogr:CANTIERE>Il GRAB richiede nell’ultima parte di questo tratto la realizzazione ex novo di un percorso ciclabile protetto.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.865698806000069" lon="12.53500753000003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86487876800004" lon="12.536143554000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864479018000054" lon="12.536743178000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.863936501000069" lon="12.537437981000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.863432055000033" lon="12.538170855000033">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862803878000079" lon="12.539084568000021">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862442199000043" lon="12.539598531000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86451708900006" lon="12.541977992000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864621786000043" lon="12.542149313000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86469237600005" lon="12.542283385000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864684146000059" lon="12.542687135000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.863267746000076" lon="12.543171932000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862632640000072" lon="12.543378247000021">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862671008000063" lon="12.544218727000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862657714000079" lon="12.544604350000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862734818000035" lon="12.545124605000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862950724000029" lon="12.545479703000069">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>07 - Tor Fiscale - Quadraro</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>0.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0125243821344</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/quadraro2.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>1.3</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>9.5</ogr:DIST_TOTAL>
+    <ogr:FONDO>Asfalto</ogr:FONDO>
+    <ogr:CANTIERE>Il GRAB richiede in questo tratto la realizzazione ex novo di un percorso ciclabile protetto.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.862950724000029" lon="12.545479703000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.862987184000076" lon="12.545486033000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.863545223000074" lon="12.545129870000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.86411571800005" lon="12.544769381000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864262735000068" lon="12.544883107000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864326184000049" lon="12.545034887000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864427491000072" lon="12.545084255000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864888385000029" lon="12.545205511000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864758117000065" lon="12.545728539000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864494447000027" lon="12.546541785000045">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864334646000032" lon="12.547078226000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.864914721000048" lon="12.546925877000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865387726000051" lon="12.546852921000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.865953410000031" lon="12.546743487000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866474347000064" lon="12.546636198000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.866872237000052" lon="12.546578263000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.867508217000079" lon="12.546475266000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.867736721000028" lon="12.546425913000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.868358311000065" lon="12.546320771000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.869142880000027" lon="12.546421622000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.869917852000071" lon="12.546522473000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.870341287000031" lon="12.546550368000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.870742349000068" lon="12.546479557000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.872443464000071" lon="12.546043474000044">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>08 - Quadraro - Torpignattara - Villa de Sanctis</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>2.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0104778121168</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/acquedotto_alessandrino.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>1.0</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>10.5</ogr:DIST_TOTAL>
+    <ogr:FONDO>Asfalto/Sterrato</ogr:FONDO>
+    <ogr:CANTIERE>C’è attualmente un breve itinerario in ciclabile, ma è completamente da rivedere. Sul resto di questo tratto va realizzato un percorso ciclabile protetto.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.872445794000043" lon="12.546041415000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.87261637000006" lon="12.546083912000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.872786960000042" lon="12.546054298000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.873355630000049" lon="12.545910355000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.873715796000056" lon="12.545834152000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.874060174000078" lon="12.545745212000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.87431607700006" lon="12.545694408000031">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.87434770200008" lon="12.545601088000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.874344638000025" lon="12.545299859000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.874427182000034" lon="12.545156145000021">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.874659937000047" lon="12.545026417000031">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875071749000028" lon="12.544728469000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875257955000052" lon="12.544608337000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875368961000049" lon="12.544550680000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875551765000068" lon="12.544535710000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875658440000052" lon="12.544540375000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875735868000049" lon="12.544538095000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875782339000068" lon="12.544484966000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875811608000049" lon="12.544415653000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875825386000031" lon="12.544357888000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875858086000051" lon="12.544318619000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875878731000057" lon="12.544327871000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875883818000034" lon="12.544605170000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875890631000061" lon="12.544815444000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875909463000028" lon="12.545078839000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875940350000064" lon="12.545296007000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.875988449000033" lon="12.545503933000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.876060308000035" lon="12.545792025000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.87620890900007" lon="12.546107713000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.876492253000038" lon="12.54668348000007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.876539105000063" lon="12.546827439000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.876503338000077" lon="12.547001348000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.876456387000076" lon="12.547241217000021">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.876436256000034" lon="12.547382138000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.876427288000059" lon="12.547526060000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.876471913000046" lon="12.547640026000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.876612558000033" lon="12.547709068000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.877393301000041" lon="12.547925798000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.877763283000036" lon="12.548020806000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.877856592000057" lon="12.548095955000065">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.877862699000048" lon="12.548167954000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.877856555000051" lon="12.548235832000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.87808779900007" lon="12.548332622000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.877844863000064" lon="12.549209359000031">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>09 - Villa De Sanctis - Villa Gordiani</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>0.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0158973020626</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/villa_desanctis.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>1.7</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>12.2</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sterrato/Asfalto</ogr:FONDO>
+    <ogr:CANTIERE>Lo sterrato di Villa de Sanctis necessita di piccoli interventi di manutenzione. Via dei Gordiani è una strada di scorrimento dove è necessaria la realizzazione di un percorso ciclabile protetto.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.877844918000051" lon="12.549210483000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.877956432000076" lon="12.549298521000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.878089172000045" lon="12.549422225000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.878167043000076" lon="12.549488835000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.878211432000057" lon="12.549546360000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.878279246000034" lon="12.549824757000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.878198194000049" lon="12.550185955000075">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.878441103000057" lon="12.550287685000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.878405647000079" lon="12.550755822000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.878467197000077" lon="12.551012348000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.878699510000047" lon="12.55118471000003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.879571173000045" lon="12.551471285000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.880098461000046" lon="12.551650823000045">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.88040962000008" lon="12.551758564000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.880582055000048" lon="12.551818270000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.880754696000054" lon="12.551878048000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.881092414000079" lon="12.551994985000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.881175564000046" lon="12.552023776000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.881265971000062" lon="12.552073383000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.881650798000067" lon="12.552627404000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.882020602000068" lon="12.553202858000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.882510867000065" lon="12.553143127000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.883360215000039" lon="12.553058329000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.883630654000058" lon="12.55301918400005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.883801861000052" lon="12.553251611000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.88383480300007" lon="12.553657634000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.883848490000048" lon="12.553831235000075">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.883862190000059" lon="12.554005011000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.883888049000063" lon="12.554332998000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.88402921200003" lon="12.55444544900007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.884128772000054" lon="12.554442668000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.884224910000057" lon="12.554439983000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.884284440000044" lon="12.554433018000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.884398684000075" lon="12.554419652000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.884490518000064" lon="12.554408908000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.88461581200005" lon="12.55439425000003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.884754903000044" lon="12.554377977000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.884867774000043" lon="12.554364772000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.884974778000071" lon="12.554352253000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.885036756000034" lon="12.554329241000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.885407468000039" lon="12.554329465000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.885471025000072" lon="12.554363306000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.886148194000043" lon="12.554324934000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.886515613000029" lon="12.554307358000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.886704192000025" lon="12.554307470000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.886914961000059" lon="12.554307594000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.887132956000073" lon="12.554281685000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.887505116000057" lon="12.55418495300006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.887870475000057" lon="12.554166980000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.888239868000028" lon="12.554147785000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.888519848000044" lon="12.554141341000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.888731064000069" lon="12.554111769000031">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.88884081100008" lon="12.554095709000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.888874968000039" lon="12.554095726000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.888945973000034" lon="12.554193015000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889113992000034" lon="12.554180268000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889210373000026" lon="12.554171944000075">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889378606000037" lon="12.55412762900005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889637214000061" lon="12.554064964000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889788853000027" lon="12.554039360000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889870969000071" lon="12.554000176000045">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890120116000048" lon="12.553965914000059">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>10 - Villa Gordiani - Terme Gordiane</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>2.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0098167045725</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/villa_giordani.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>1.0</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>13.2</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sterrato/Asfalto</ogr:FONDO>
+    <ogr:CANTIERE>Il percorso nell’area verde necessita di manutenzione. Dove il GRAB si muove sulla viabilità ordinaria vanno messi in totale sicurezza gli attraversamenti e realizzate corsie ciclabili protette.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.890120956000032" lon="12.55396339400005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890119798000057" lon="12.553867620000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890137645000038" lon="12.553792609000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890159049000033" lon="12.553741542000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890188760000058" lon="12.553728789000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890433581000025" lon="12.553700116000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890808332000063" lon="12.553634794000061">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890886099000056" lon="12.553621338000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891048298000044" lon="12.55349411800006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89128426700006" lon="12.553205667000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891419109000026" lon="12.553041645000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89152234900007" lon="12.55290307100006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89155813800005" lon="12.552945531000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891587580000078" lon="12.553055897000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891617032000056" lon="12.553135137000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891610766000042" lon="12.553297941000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891615275000049" lon="12.553397311000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891636399000049" lon="12.55344801800004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891639419000057" lon="12.553448020000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891796409000051" lon="12.553510965000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891803956000047" lon="12.553512997000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891989609000063" lon="12.553561759000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892110368000033" lon="12.553531411000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892249234000076" lon="12.55350512800004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892386588000079" lon="12.553497095000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892571044000078" lon="12.553523165000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892681104000076" lon="12.553558537000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89278624800005" lon="12.553560804000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892963728000041" lon="12.553463792000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893123919000061" lon="12.553312664000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89330525400004" lon="12.553154468000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893421301000046" lon="12.553074165000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893515603000026" lon="12.552971930000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893523740000035" lon="12.552870802000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893499513000052" lon="12.552617204000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893521974000066" lon="12.552484143000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89359489900005" lon="12.552341067000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893656583000052" lon="12.552300928000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893790312000078" lon="12.552200028000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893759303000024" lon="12.551952347000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893729532000066" lon="12.551714554000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893696534000071" lon="12.551450986000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893660978000071" lon="12.551166986000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89395393500007" lon="12.551126369000031">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894319125000038" lon="12.55116805800003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894548369000063" lon="12.551194227000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894769290000056" lon="12.551219447000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895015716000046" lon="12.551247578000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895231402000036" lon="12.551272200000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895356095000068" lon="12.551286434000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895304957000064" lon="12.551280596000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89536186600003" lon="12.551287093000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895448569000052" lon="12.551296990000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895570710000072" lon="12.551310933000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895691370000065" lon="12.551324708000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895971752000037" lon="12.551356715000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.896045963000063" lon="12.551387933000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89611016200007" lon="12.551808721000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.896137196000041" lon="12.551961118000065">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.896186238000041" lon="12.552118068000027">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>11 - Terme Gordiane - Parco lineare TAV</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>0.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0223768936996</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/terme_gordiane.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>2.0</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>15.2</ogr:DIST_TOTAL>
+    <ogr:FONDO>Asfalto</ogr:FONDO>
+    <ogr:CANTIERE>E’ necessaria la complessiva risistemazione del parco lineare TAV e la creazione di un percorso nettamente separato dal traffico veicolare lungo via Grotte di Gregna.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.896185322000065" lon="12.552118638000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.896558435000031" lon="12.551919487000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.896990488000029" lon="12.551703524000061">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.897156532000054" lon="12.551614734000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.897622738000052" lon="12.551532973000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89771343700005" lon="12.551628172000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.897841929000037" lon="12.552287118000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.897984413000074" lon="12.553058975000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.898323856000047" lon="12.554798697000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.898455156000068" lon="12.555484535000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.898622919000047" lon="12.556150790000061">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.899031314000069" lon="12.556126267000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.899297502000024" lon="12.556106659000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.899432408000052" lon="12.556096822000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.899490757000081" lon="12.556194806000065">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.899564772000076" lon="12.556783497000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.899618775000079" lon="12.556899503000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.899714703000029" lon="12.557556644000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.899860440000054" lon="12.558398858000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89991045000005" lon="12.558479324000075">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.900000288000058" lon="12.558948711000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.899986413000079" lon="12.559104279000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.900080244000037" lon="12.559530750000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.90002035200007" lon="12.559581712000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.900249937000069" lon="12.560756519000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.900343768000027" lon="12.561174944000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.900431609000066" lon="12.561244681000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.900647218000074" lon="12.561421707000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.900960649000069" lon="12.563073948000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901258107000046" lon="12.564468697000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901417816000048" lon="12.565176800000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901483695000024" lon="12.565436974000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901502685000025" lon="12.565463600000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901558640000076" lon="12.565730784000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901680085000066" lon="12.566265189000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901756281000075" lon="12.566602784000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901790807000054" lon="12.566767584000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901877742000067" lon="12.566733999000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901949179000042" lon="12.566865188000065">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901995228000033" lon="12.566980484000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.902038866000055" lon="12.567097750000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901881339000056" lon="12.567176758000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.905159823000076" lon="12.565954923000049">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>12 - Parco Lineare TAV - Parco Baden Powell</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>2.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.00755896195178</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/Parco_Baden_Powell_1.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>0.7</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>15.9</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sterrato</ogr:FONDO>
+    <ogr:CANTIERE>Lo sterrato in questo tratto è in pessime condizioni. Necessaria una soluzione sicura per connettere l’area del Parco Baden Powell alla ciclabile che corre al centro della carreggiata di viale Palmiro Togliatti, una superstrada urbana.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.905159823000076" lon="12.565954923000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.90534542100005" lon="12.56596920000004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.905845108000051" lon="12.56756819800006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.906558947000065" lon="12.569252856000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.907187124000075" lon="12.570908961000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.907486936000055" lon="12.57165135300005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.90772964100006" lon="12.57195116500003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.908000900000047" lon="12.572250977000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.908486310000058" lon="12.572393745000056">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>13 - Palmiro Togliatti - Ponte Mammolo</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>0.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0212047277167</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/ciclovia_aniene.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>2.5</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>18.4</ogr:DIST_TOTAL>
+    <ogr:FONDO>Asfalto</ogr:FONDO>
+    <ogr:CANTIERE>Per un lungo tratto c’è la ciclabile Togliatti, progettata male per via delle troppe deviazioni e delle continue interruzioni a causa delle intersezioni non sicure con la viabilità ordinaria. Va rivista tutta la ciclabile</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.908486310000058" lon="12.572393745000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.909262014000035" lon="12.572225398000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.910118620000048" lon="12.57198745200003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.910642102000054" lon="12.571797095000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.910748130000059" lon="12.572068385000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.910967566000068" lon="12.571950807000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.912457362000055" lon="12.571107581000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.912968717000069" lon="12.570820686000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.913439477000054" lon="12.570557740000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.913717027000075" lon="12.570402713000021">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.91382866400005" lon="12.570385458000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.914076672000078" lon="12.570301585000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.91429974600004" lon="12.570182612000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.914448462000053" lon="12.570135023000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.914528854000025" lon="12.570110953000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916400710000062" lon="12.569067017000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916492171000073" lon="12.568822518000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916720578000024" lon="12.568710966000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916887140000028" lon="12.568777591000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.917941241000051" lon="12.568168449000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918012703000045" lon="12.568127934000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918840489000047" lon="12.56763959500006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.919076686000039" lon="12.567506531000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.919101971000032" lon="12.567476553000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.919348440000078" lon="12.567333063000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.919698935000042" lon="12.567145086000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.920137896000028" lon="12.566955884000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92039963700006" lon="12.566854757000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.920661377000044" lon="12.566741732000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92094691300008" lon="12.566688194000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.921113475000027" lon="12.566664400000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.921541778000062" lon="12.566509735000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.922172335000027" lon="12.56631937800006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.922511408000048" lon="12.566051689000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.922808841000062" lon="12.565653129000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923034890000054" lon="12.565314056000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92314196500007" lon="12.56511775000007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923213349000036" lon="12.564969034000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923254213000064" lon="12.564833685000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923346537000043" lon="12.56479580000007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92341374800003" lon="12.564820732000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923464743000068" lon="12.564936">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92347400500006" lon="12.565035693000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923478634000048" lon="12.565110461000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92339288800008" lon="12.565284913000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923186589000068" lon="12.565615144000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923066047000077" lon="12.565833237000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923033588000067" lon="12.565957861000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92302946600006" lon="12.566036365000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923056676000044" lon="12.566145917000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923174775000064" lon="12.566311145000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923163392000049" lon="12.566359804000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923174764000066" lon="12.566444261000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923540579000075" lon="12.56693382800006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923776942000075" lon="12.567240706000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923861570000042" lon="12.567305087000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92394620500005" lon="12.56737378400004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924027635000073" lon="12.567532611000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924086709000051" lon="12.567637775000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924149" lon="12.567639949000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924195319000034" lon="12.567624942000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924220886000057" lon="12.567567011000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924233684000058" lon="12.567491912000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924241693000056" lon="12.567393196000069">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>14 - Riserva dell'Aniene - Ponte Nomentano</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>2.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.066542044444</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/riserva_aniene.jpeg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>6.1</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>24.5</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sterrato</ogr:FONDO>
+    <ogr:CANTIERE>Necessaria la manutenzione straordinaria dello sterrato per ricompattare e rendere omogeneo il fondo. In molti tratti il percorso attuale diventa sentiero: va allargato e uniformato in larghezza al resto del percorso.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.92422808300006" lon="12.567408264000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924115528000073" lon="12.567313716000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923975933000065" lon="12.567217156000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923836237000046" lon="12.567123279000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923774372000025" lon="12.566999897000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923774372000025" lon="12.566788003000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92388812400003" lon="12.566407129000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923945998000079" lon="12.566082582000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924185476000048" lon="12.565666839000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924371070000063" lon="12.56531547000003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924986023000031" lon="12.564628288000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925496899000052" lon="12.563683748000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925576723000063" lon="12.562718153000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925648564000028" lon="12.562342644000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925592688000052" lon="12.561473608000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92550089000008" lon="12.560306847000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925556767000046" lon="12.559754312000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925636591000057" lon="12.559537053000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92580023000005" lon="12.559301019000031">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925963868000053" lon="12.559188366000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926117528000077" lon="12.558920145000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926189469000064" lon="12.558646560000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926325268000028" lon="12.558418572000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926472940000053" lon="12.557978690000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926690457000063" lon="12.557710469000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926977818000069" lon="12.557640731000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927540562000047" lon="12.55762463800005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92789197500008" lon="12.557581723000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928099510000038" lon="12.557313502000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927979778000065" lon="12.556659043000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928219241000079" lon="12.555671990000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928642289000038" lon="12.555296481000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92895358700008" lon="12.554781497000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929169100000081" lon="12.553193629000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929385011000079" lon="12.551906168000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92962486700003" lon="12.551337540000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929640831000029" lon="12.550650895000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929417440000066" lon="12.550134919000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929634716000066" lon="12.547348452000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930180846000042" lon="12.547235842000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930562141000053" lon="12.547026197000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.931499819000067" lon="12.546758247000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932411684000044" lon="12.547797024000033">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93302625900003" lon="12.547560990000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933616885000049" lon="12.547410786000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934079804000078" lon="12.547206938000045">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933896233000041" lon="12.546595395000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933624866000059" lon="12.545780003000061">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933553034000056" lon="12.545147002000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933832382000048" lon="12.544288695000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933960084000034" lon="12.543623507000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933904214000052" lon="12.543097794000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933640829000069" lon="12.54225021600007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933403113000054" lon="12.541923570000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933257622000042" lon="12.541587710000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933207738000078" lon="12.541378498000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933000220000054" lon="12.541171968000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932872516000032" lon="12.540812552000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932748803000038" lon="12.540458500000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932623094000064" lon="12.53997838500004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932503371000053" lon="12.539538503000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932387639000069" lon="12.539315879000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932283879000067" lon="12.53923809500003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932048423000026" lon="12.53914958200005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.931878814000072" lon="12.539248824000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.931733149000081" lon="12.539417803000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.931589480000071" lon="12.539688706000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93145379200007" lon="12.540021300000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93136000700008" lon="12.540479958000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.931218332000071" lon="12.540898383000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930978881000044" lon="12.541595891000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930831219000027" lon="12.542011634000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930651629000067" lon="12.542266443000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930468049000069" lon="12.542486385000075">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930250545000035" lon="12.542668775000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929879389000064" lon="12.542974547000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929679843000031" lon="12.543052331000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929478300000028" lon="12.543124750000061">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92937852600005" lon="12.54314084400005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929242833000046" lon="12.543097928000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929091176000043" lon="12.543189123000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929011356000046" lon="12.543280318000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928857703000062" lon="12.543320552000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928636203000053" lon="12.543261543000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92817524000003" lon="12.543030873000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927953737000053" lon="12.542875305000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927772144000073" lon="12.542733148000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927464831000066" lon="12.542373732000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927293215000077" lon="12.542143062000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927049758000067" lon="12.541571751000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926794326000049" lon="12.541056767000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926632686000062" lon="12.540619567000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926544881000041" lon="12.540158227000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926576810000029" lon="12.539688841000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92664665500007" lon="12.539388299000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926860180000062" lon="12.538940370000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927109624000025" lon="12.538433433000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92728323700004" lon="12.538044512000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927369045000034" lon="12.537950635000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927460840000037" lon="12.537996233000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927658398000062" lon="12.537829936000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927712278000058" lon="12.537489295000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92781804100008" lon="12.537215710000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928021585000067" lon="12.537036002000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928324903000032" lon="12.536706090000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928682099000071" lon="12.536582708000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928845730000035" lon="12.535971165000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92893353200003" lon="12.535595655000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929115122000042" lon="12.535126269000045">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929236846000038" lon="12.534624696000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929390499000078" lon="12.534160674000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929492268000047" lon="12.533720791000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929558119000035" lon="12.533364058000075">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92964991000008" lon="12.533004642000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929689820000078" lon="12.532661319000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929448367000077" lon="12.532352865000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929208910000057" lon="12.531980038000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928929541000059" lon="12.531762779000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928769901000067" lon="12.531347036000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928452616000072" lon="12.530773044000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928143311000042" lon="12.530373394000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927907840000046" lon="12.530078486000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927660394000043" lon="12.529863909000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927576581000039" lon="12.529748574000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927536671000041" lon="12.529587641000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927582568000048" lon="12.529477671000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927750193000065" lon="12.529394522000075">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928203177000057" lon="12.52947498900005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928504499000042" lon="12.529488400000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928831762000073" lon="12.529432073000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929218887000047" lon="12.529453531000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929388503000041" lon="12.529485717000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929743698000038" lon="12.529397205000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930041022000069" lon="12.529407933000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930128822000029" lon="12.529512540000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930362290000062" lon="12.529523268000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930615712000076" lon="12.529619828000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930755392000037" lon="12.529783443000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.931062689000044" lon="12.530027524000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.931268218000071" lon="12.530188456000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.931593470000053" lon="12.530663073000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.931685259000062" lon="12.530727446000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.931832919000044" lon="12.530671120000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.931972697000049" lon="12.530778542000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932311914000024" lon="12.531186238000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932471545000055" lon="12.531610027000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93264913400003" lon="12.531883612000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932786715000077" lon="12.531998947000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932998324000039" lon="12.532229617000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933159949000071" lon="12.532511249000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933303615000057" lon="12.532723144000045">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933435308000071" lon="12.532916263000061">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>15 - Montesacro - Villa Ada</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>0.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.046216487423</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/montesacro.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>4.3</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>28.8</ogr:DIST_TOTAL>
+    <ogr:FONDO>Pista ciclabile</ogr:FONDO>
+    <ogr:CANTIERE>Manutenzione ordinaria per la pista ciclabile e intervento per rendere uniforme la carreggiata. Vanno completamente realizzati tutti gli attraversamenti laddove il GRAB incrocia la viabilità ordinaria.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.933429293000074" lon="12.532913040000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933579998000027" lon="12.532516756000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933737800000074" lon="12.532195884000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93383250100004" lon="12.532101487000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933852995000052" lon="12.531978575000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933978816000035" lon="12.531992296000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934077942000044" lon="12.53199488000007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934206717000052" lon="12.531998236000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934313210000028" lon="12.531995949000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934416808000037" lon="12.532188069000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934594363000031" lon="12.532459632000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934759944000064" lon="12.532504568000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934890109000037" lon="12.532434949000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935077363000062" lon="12.532355980000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935201825000036" lon="12.532269433000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935450643000081" lon="12.531747685000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935541888000046" lon="12.531588630000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935618088000069" lon="12.531585251000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935750175000067" lon="12.531319176000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936065030000066" lon="12.53072372500003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936320823000074" lon="12.530085359000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936458496000057" lon="12.529838596000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93661811700008" lon="12.52953818900005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936791704000029" lon="12.529208277000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937025147000043" lon="12.528685246000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937180776000048" lon="12.528229271000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937338399000055" lon="12.527786706000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937374314000067" lon="12.527497028000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93711892400006" lon="12.527204667000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936526335000053" lon="12.526735280000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935967661000063" lon="12.526252483000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935578581000073" lon="12.526340996000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935177527000064" lon="12.526652132000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93494806700005" lon="12.526928399000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934652761000052" lon="12.527100597000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934335506000025" lon="12.526953076000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93410005700008" lon="12.526662861000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933982332000028" lon="12.526284669000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933838668000078" lon="12.525941346000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93380275100003" lon="12.525600706000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934014257000058" lon="12.52518228100007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934385389000056" lon="12.524608289000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934724593000055" lon="12.52390286800005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935075767000058" lon="12.523403977000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93540299600005" lon="12.522961412000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935460859000045" lon="12.522685145000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935420953000062" lon="12.522017275000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935301236000043" lon="12.521545206000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935235391000049" lon="12.521199201000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935408982000069" lon="12.521083866000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935794072000078" lon="12.520869289000075">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936414601000081" lon="12.520563517000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936803675000078" lon="12.520434771000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93701317600005" lon="12.52039185600006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937287277000053" lon="12.520398011000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937567597000054" lon="12.52036920200004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937777734000065" lon="12.520437103000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93817040600004" lon="12.520501827000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93831110800005" lon="12.520442850000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938361945000054" lon="12.520343576000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938543508000066" lon="12.519777630000021">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938735046000033" lon="12.519176815000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938864733000059" lon="12.518584047000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.939032328000053" lon="12.518173669000078">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.939285716000029" lon="12.517800842000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.939531121000073" lon="12.517406557000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.939728642000034" lon="12.51702300200003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.939973647000045" lon="12.516524111000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.940239001000066" lon="12.515944753000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.940424549000056" lon="12.515574609000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.940709852000055" lon="12.515220557000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.940715838000074" lon="12.51497379400007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.940995155000053" lon="12.514426623000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.941192671000067" lon="12.514059161000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.941392182000072" lon="12.513680969000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.94154780000008" lon="12.51343957000006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.941745314000059" lon="12.513174032000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.941777236000064" lon="12.513047968000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.941507898000054" lon="12.512707327000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.941843074000076" lon="12.512337182000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.941998691000038" lon="12.512068961000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.942028617000062" lon="12.511731003000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.94185703900007" lon="12.511419867000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.941553785000053" lon="12.511114095000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.941172720000054" lon="12.510709081000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.94086946200008" lon="12.510363077000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.94062406200004" lon="12.510027800000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.940294865000055" lon="12.509652291000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.939881870000079" lon="12.509413575000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.939672777000055" lon="12.509317015000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.939525136000043" lon="12.509338473000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.939299682000069" lon="12.509456490000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.939052280000055" lon="12.509582554000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938960103000056" lon="12.509735440000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938972473000035" lon="12.509917830000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938910622000037" lon="12.510033165000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93883183500003" lon="12.509931782000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93874379500005" lon="12.509936541000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938649511000051" lon="12.509965297000065">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938517570000045" lon="12.510169957000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93841980600007" lon="12.510376488000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938407834000031" lon="12.510698353000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938455662000081" lon="12.511276181000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938534053000069" lon="12.511527279000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938565527000037" lon="12.51162809300007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938635287000068" lon="12.51173422200003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938236247000077" lon="12.511691306000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.938036727000053" lon="12.511503552000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937807277000047" lon="12.511152182000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937641674000076" lon="12.510977839000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93747806500005" lon="12.510790084000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937264576000075" lon="12.510645245000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937196738000068" lon="12.510580872000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937288519000049" lon="12.510387753000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937334409000073" lon="12.510266517000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93721469500008" lon="12.509901737000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.937031133000062" lon="12.509341155000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936919399000033" lon="12.509043430000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936644055000045" lon="12.509078298000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936494411000069" lon="12.509072934000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936268946000041" lon="12.509048794000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936069420000081" lon="12.509038065000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935945713000081" lon="12.509121214000061">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93590774300003" lon="12.509172350000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93572507600004" lon="12.509100313000033">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935717714000077" lon="12.50873931600006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935936087000073" lon="12.508623569000065">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935950366000043" lon="12.508536917000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936122172000069" lon="12.508334611000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936108613000044" lon="12.508271513000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936151210000048" lon="12.508246265000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936188675000039" lon="12.508182073000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936190336000038" lon="12.50809500400004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936183407000044" lon="12.507872740000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936158680000062" lon="12.507606620000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.936099303000049" lon="12.50720250300003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935983247000081" lon="12.506821616000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935780995000073" lon="12.50653692000003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935610773000064" lon="12.506248863000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935588591000055" lon="12.506245574000047">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>16 - Villa Ada - Parioli</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>2.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0208805083753</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/villa_ada.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>2.0</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>30.8</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sterrato</ogr:FONDO>
+    <ogr:CANTIERE>Normale manutenzione dello sterrato per eliminare le buche e renderlo omogeneo.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.935588591000055" lon="12.506245574000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935424744000045" lon="12.506067753000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93554271000005" lon="12.505929050000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935649735000027" lon="12.50559654500006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935692559000074" lon="12.505256071000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935629880000079" lon="12.504814196000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935615478000045" lon="12.504669971000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935590657000034" lon="12.504421418000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935564072000034" lon="12.504155195000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935538536000081" lon="12.503899472000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935516549000056" lon="12.503736773000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.93548949400008" lon="12.503536567000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935439056000064" lon="12.503279789000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935426842000027" lon="12.50307295500005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935350566000068" lon="12.502683421000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935329511000077" lon="12.502154442000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935309163000056" lon="12.501643194000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935303573000056" lon="12.501502756000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.935128854000027" lon="12.500877451000065">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934934411000029" lon="12.500507252000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934793032000073" lon="12.500292957000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934459814000036" lon="12.499748468000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934369568000079" lon="12.499593295000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.934153034000076" lon="12.499615154000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.933697198000061" lon="12.499415338000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932894485000077" lon="12.49945501600007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.932373978000044" lon="12.499529374000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.931802907000076" lon="12.499713782000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930666715000029" lon="12.499972548000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.930167028000028" lon="12.500011215000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.929598733000034" lon="12.49981748700003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92901389900004" lon="12.499491168000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928782872000056" lon="12.499643326000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928456592000032" lon="12.499812728000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928280512000072" lon="12.499684237000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927871245000063" lon="12.499765139000033">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927619022000044" lon="12.499351112000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927062228000068" lon="12.499446291000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926607431000036" lon="12.499320707000038">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92639967000008" lon="12.499545348000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92578168600005" lon="12.499753545000033">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925249144000077" lon="12.499930322000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925100538000038" lon="12.500040302000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925059561000069" lon="12.499718428000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925065548000077" lon="12.499297321000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925149364000049" lon="12.498481929000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925524139000061" lon="12.497720182000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925611945000071" lon="12.496679485000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925380455000038" lon="12.496540010000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925361180000039" lon="12.496520370000042">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>17 - Parioli - Bioparco</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>0.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0102050704891</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/Parioli.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>1.0</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>31.8</ogr:DIST_TOTAL>
+    <ogr:FONDO>Pista ciclabile</ogr:FONDO>
+    <ogr:CANTIERE>Manutenzione straordinaria della pista ciclabile, con allargamento della sede dove serve.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.925366829000041" lon="12.496520362000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925358050000057" lon="12.496053476000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92529012500006" lon="12.495837194000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925140291000048" lon="12.495605831000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924906098000065" lon="12.495366309000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92454688600003" lon="12.49524561000004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924333353000065" lon="12.495141004000061">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924199645000044" lon="12.495055173000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923912272000052" lon="12.49468771100004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923658823000039" lon="12.494312201000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923165894000078" lon="12.49357191200005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.922976304000031" lon="12.493298326000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.922842594000031" lon="12.493046199000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92277873200004" lon="12.49294427500007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.922734826000067" lon="12.492737745000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.922629055000073" lon="12.492638503000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.922662982000077" lon="12.492472206000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92264302500007" lon="12.492254947000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.922483369000076" lon="12.492056464000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.922359636000067" lon="12.492174481000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.922044315000051" lon="12.492206667000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.921709434000036" lon="12.492241536000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.921338229000071" lon="12.492171799000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92114065100003" lon="12.492080603000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.921006936000026" lon="12.491957222000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.920935089000068" lon="12.491780196000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.920847277000064" lon="12.491595124000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.920496024000045" lon="12.491399322000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.92022460000004" lon="12.491216932000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.919945192000057" lon="12.491050635000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.919657800000039" lon="12.490873609000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.919410322000033" lon="12.490476642000033">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.91914687700006" lon="12.49013063700005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.919126919000064" lon="12.49007967600005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918921351000051" lon="12.489972387000023">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>18 - Villa Borghese - GNAM</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>2.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.00850000303886</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/villa_borghese.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>0.8</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>32.6</ogr:DIST_TOTAL>
+    <ogr:FONDO>Asfalto</ogr:FONDO>
+    <ogr:CANTIERE>Realizzazione di un percorso ciclabile su uno dei due lati della strada attualmente occupati da parcheggi.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.918905485000039" lon="12.48995947800006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918585756000027" lon="12.489723444000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918059656000025" lon="12.489608109000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.917786226000032" lon="12.489549100000033">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.917365102000076" lon="12.489178956000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.917147453000041" lon="12.488996565000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916989780000051" lon="12.488696158000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916903957000045" lon="12.488446712000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916720337000072" lon="12.487993419000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916757272000041" lon="12.487599594000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.917018083000073" lon="12.486985011000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916991564000057" lon="12.486765381000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916924257000062" lon="12.48639976000004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916786081000055" lon="12.485978685000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916691458000059" lon="12.485555077000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916572177000035" lon="12.485021083000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916481583000063" lon="12.48473025900006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916327212000056" lon="12.484310820000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916115620000028" lon="12.483903285000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.915824390000068" lon="12.483664277000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.915857818000063" lon="12.483465912000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916125492000049" lon="12.483069536000073">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>19 - GNAM - Belle Arti</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>0.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0104496758138</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/GalleriaNazionaleArteModerna.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>0.9</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>33.5</ogr:DIST_TOTAL>
+    <ogr:FONDO>Pista ciclabile</ogr:FONDO>
+    <ogr:CANTIERE>La ciclabile Belle Arti necessita di manutenzione straordinaria e di un tracciato privo degli ostacoli e delle barriere attualmente presenti lungo il percorso.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.916125492000049" lon="12.483069536000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916060955000034" lon="12.482702378000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916155901000025" lon="12.482428943000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916243720000068" lon="12.482227240000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916406584000072" lon="12.481800233000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916598189000069" lon="12.481349622000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916697185000032" lon="12.481047068000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.91684887100007" lon="12.480703746000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916938286000061" lon="12.480529939000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916880805000062" lon="12.480287467000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916904756000065" lon="12.479976331000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.917074005000075" lon="12.479789649000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.917212917000029" lon="12.47979179500004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.917327879000027" lon="12.479607259000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.917503514000032" lon="12.479450618000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.91767595500005" lon="12.479405557000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.917947390000052" lon="12.47944418000003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918110250000041" lon="12.479330455000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918234790000042" lon="12.479137336000065">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.91848546600005" lon="12.478542958000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918669081000075" lon="12.478115950000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918685047000054" lon="12.477847730000065">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.91862597100004" lon="12.477581654000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918495046000032" lon="12.477407847000052">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.91846311200004" lon="12.477249060000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918546139000057" lon="12.477013026000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918811183000059" lon="12.476365004000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918898998000031" lon="12.475950871000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918970847000026" lon="12.475476657000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918985217000056" lon="12.475086127000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918891015000042" lon="12.473918830000059">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>20 - Belle Arti - Ponte della Musica - Ciclabile Tevere</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>2.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0559518809638</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/piazza_cavour.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>6.0</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>39.5</ogr:DIST_TOTAL>
+    <ogr:FONDO>Asfalto/Pista ciclabile</ogr:FONDO>
+    <ogr:CANTIERE>Sul primo tratto del percorso, fino al Ponte della Musica, va realizzato un percorso ciclabile protetto. La ciclabile della seconda parte di questo tratto necessita di interventi di adeguamento per assicurare continuità al percorso e una sede sufficient</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.918891015000042" lon="12.473918830000059">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.919048641000074" lon="12.473898473000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.919089906000067" lon="12.473655093000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.921377925000058" lon="12.472721372000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.921899803000031" lon="12.472533971000075">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923137444000076" lon="12.472089546000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923522014000071" lon="12.471970882000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923796959000072" lon="12.471914866000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924287593000031" lon="12.471679251000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924938259000044" lon="12.471366784000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925693508000052" lon="12.471043335000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926314275000038" lon="12.470795358000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927085624000028" lon="12.470487227000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928849503000038" lon="12.469782612000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.928297390000068" lon="12.467521730000044">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927933467000059" lon="12.465894619000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927670500000033" lon="12.464718891000075">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927016050000077" lon="12.46184005300006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927291049000075" lon="12.461583966000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.927156604000061" lon="12.461116531000073">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926818126000057" lon="12.461156823000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926444280000055" lon="12.459326833000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.926013420000061" lon="12.459260487000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.925077989000044" lon="12.459820259000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.924542913000039" lon="12.460288414000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.923415048000038" lon="12.461701814000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.922515612000041" lon="12.463614900000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.921787497000025" lon="12.466313209000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.921544792000077" lon="12.467569565000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.921316364000063" lon="12.468397617000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.920959445000051" lon="12.468940134000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.920274160000076" lon="12.469611142000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.919588875000045" lon="12.470039445000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.918795325000076" lon="12.470299996000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.917635338000025" lon="12.470270253000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.916796258000034" lon="12.470233524000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.915273821000028" lon="12.470166884000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.913560511000071" lon="12.470245269000031">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.912399334000042" lon="12.470606947000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.91091455000003" lon="12.471254160000058">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.909867587000065" lon="12.471730052000055">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.908382803000052" lon="12.472586658000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.906993198000066" lon="12.473595550000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.906193699000028" lon="12.473862049000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.905089629000031" lon="12.473709764000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.904156881000063" lon="12.473157729000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.903757131000077" lon="12.472643765000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.903167025000073" lon="12.471349338000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.90265306100008" lon="12.469731305000039">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>21 - Castel Sant'Angelo - Trastevere</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>0.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0192181686346</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/castal_santangelo.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>1.7</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>41.2</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sampietrini/Asfalto</ogr:FONDO>
+    <ogr:CANTIERE>Siamo in centro storico. Adeguamento della viabilità per consentire la circolazione in bici in totale sicurezza.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.90265306100008" lon="12.469731305000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.902443669000036" lon="12.468798556000024">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.902462704000072" lon="12.467066309000074">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.902507458000059" lon="12.466426674000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.902291383000033" lon="12.46514370400007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.901587063000079" lon="12.463944456000036">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.90069238500007" lon="12.463030743000047">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.899645423000038" lon="12.462783279000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.898864959000036" lon="12.463087850000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.897437283000045" lon="12.464077706000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895628892000047" lon="12.465676703000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894467715000076" lon="12.467332808000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89343978800008" lon="12.468551092000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89246896800006" lon="12.469731305000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892056902000036" lon="12.470307555000034">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>22 - Ponte Sisto - Isola Tiberina</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>2.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.00977859986503</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/Ponte-sisto.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>0.9</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>42.1</ogr:DIST_TOTAL>
+    <ogr:FONDO>Asfalto</ogr:FONDO>
+    <ogr:CANTIERE>Realizzazione di una corsia ciclabile sulla sede stradale, al posto del parcheggio lato marciapiede.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.892056902000036" lon="12.470307555000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891957886000057" lon="12.470220162000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89161561700007" lon="12.470561057000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891106751000052" lon="12.471322337000061">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890843689000064" lon="12.471841536000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890614990000074" lon="12.472762928000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890503357000057" lon="12.473345834000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890419306000069" lon="12.473833456000023">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890369773000032" lon="12.474158218000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890320787000064" lon="12.474479392000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890177751000067" lon="12.475007154000025">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889964171000031" lon="12.475795199000061">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889800404000027" lon="12.476399451000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889685070000041" lon="12.476824997000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.88961708100004" lon="12.477075856000056">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89019786800003" lon="12.477383090000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890490315000079" lon="12.477577864000068">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89075202600003" lon="12.477830603000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890928875000043" lon="12.478063362000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891072805000078" lon="12.47822827300007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891205133000028" lon="12.478377637000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891305096000053" lon="12.478483671000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891349181000066" lon="12.478517880000027">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>23 - Sinagoga - Teatro Marcello</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>0.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.00539953106882</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/La Sinagoga-4.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>0.6</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>42.7</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sampietrini/Asfalto</ogr:FONDO>
+    <ogr:CANTIERE>Realizzazione di una corsia ciclabile e messa in sicurezza degli attraversamenti.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.891349181000066" lon="12.478517880000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89139304400004" lon="12.478580544000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891444767000053" lon="12.478601891000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89154736200004" lon="12.478693737000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891667796000036" lon="12.478719235000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891860812000061" lon="12.478688139000042">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892027041000063" lon="12.478618567000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892093913000053" lon="12.478585088000045">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892293246000065" lon="12.478519315000028">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89241220200006" lon="12.478560640000069">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892404194000051" lon="12.478591319000031">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892385080000054" lon="12.47861914300006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89238516100005" lon="12.478737550000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892356445000075" lon="12.478819752000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892352863000042" lon="12.478836672000057">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892322393000029" lon="12.478962375000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892277513000067" lon="12.479054277000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892282124000076" lon="12.479178078000075">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892257921000066" lon="12.479298371000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892257061000066" lon="12.479421926000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892257070000028" lon="12.479434007000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892232168000078" lon="12.47952570800004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892204763000052" lon="12.479647180000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892173809000042" lon="12.479832541000064">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892087605000029" lon="12.480011476000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892063243000052" lon="12.480102814000077">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892142779000039" lon="12.480166380000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892285111000035" lon="12.480224666000026">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892427421000036" lon="12.48028981300007">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892494071000044" lon="12.480305181000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892537656000059" lon="12.480324043000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89243803100004" lon="12.480586015000029">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89278478600005" lon="12.480778214000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893067557000052" lon="12.48117527200003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893240955000067" lon="12.481418751000035">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893401883000081" lon="12.481593485000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893606292000072" lon="12.481815429000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893680257000028" lon="12.481860927000071">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>24 - Campidoglio - Fori Imperiali - Colosseo</name>
+  <extensions>
+    <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
+    <ogr:SymbolID>2.0</ogr:SymbolID>
+    <ogr:AltMode>0</ogr:AltMode>
+    <ogr:Base>0.0</ogr:Base>
+    <ogr:Clamped>-1</ogr:Clamped>
+    <ogr:Extruded>0</ogr:Extruded>
+    <ogr:Shape_Leng>0.0139588524564</ogr:Shape_Leng>
+    <ogr:Foto>&lt;img src='http://storymaps.teamdev.it/GRAB/campidoglio.jpg' style='max-width:100%;'&gt;</ogr:Foto>
+    <ogr:DIST_PARZI>1.3</ogr:DIST_PARZI>
+    <ogr:DIST_TOTAL>44.0</ogr:DIST_TOTAL>
+    <ogr:FONDO>Sampietrini</ogr:FONDO>
+    <ogr:CANTIERE>Siamo in centro storico. Adeguamento della viabilità per consentire la circolazione in bici in totale sicurezza.</ogr:CANTIERE>
+  </extensions>
+  <trkseg>
+    <trkpt lat="41.893680257000028" lon="12.481860927000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893766494000033" lon="12.481913973000076">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894027061000031" lon="12.481898323000053">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894592826000064" lon="12.48212972400006">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894993492000026" lon="12.482075554000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895477444000051" lon="12.48236361000005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895580117000065" lon="12.48289980100003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895547572000055" lon="12.48302306100004">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895503869000038" lon="12.483493528000054">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895336933000067" lon="12.483679672000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.895199374000072" lon="12.483833059000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894886242000041" lon="12.483937953000066">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894719680000037" lon="12.484235385000034">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89461699800006" lon="12.484501394000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894365612000058" lon="12.484935691000032">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894273531000067" lon="12.485103889000072">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894216870000037" lon="12.485239177000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.894080734000056" lon="12.485516941000071">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893395078000026" lon="12.486702840000021">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.893136230000039" lon="12.487124646000041">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892894333000072" lon="12.487606284000037">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89261233700006" lon="12.488115308000033">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.892291933000081" lon="12.488753685000063">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891862515000071" lon="12.489512900000022">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891420268000047" lon="12.490298">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891292217000057" lon="12.490720602000067">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891189756000074" lon="12.49103109400005">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.891048616000035" lon="12.491091616000062">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89090759100003" lon="12.491324573000043">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.89062511000003" lon="12.491187019000051">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890451744000075" lon="12.491083819000039">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.890207810000049" lon="12.491015186000027">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889965817000075" lon="12.491019495000046">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889843191000068" lon="12.491019656000049">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889713311000037" lon="12.49097623800003">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889644682000039" lon="12.490835829000048">
+        <ele>0.0</ele>
+    </trkpt>
+    <trkpt lat="41.889615675000073" lon="12.490622696000059">
+        <ele>0.0</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+</gpx>

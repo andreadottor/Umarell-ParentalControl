@@ -1,0 +1,46 @@
+﻿@page "/server-telemetry-data"
+
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+@implements IAsyncDisposable
+@inject IConfiguration Configuration
+
+@using Azure.Messaging.WebPubSub
+@using Azure.Messaging.WebPubSub.Clients
+@using Dottor.Umarell.ParentalControl.Client.Models
+
+<h3>ServerTelemetryData</h3>
+
+<h5>@_text</h5>
+
+@code {
+    private WebPubSubClient? _client;
+    private string? _text;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        string webPubSubConnectionString = Configuration.GetConnectionString("WebPubSubConnectionString");
+        var serviceClient = new WebPubSubServiceClient(webPubSubConnectionString, "hub");
+        var url = serviceClient.GetClientAccessUri(userId: "42");
+
+        _client = new WebPubSubClient(url);
+        _client.ServerMessageReceived += OnServerMessageReceived;
+
+        await _client.StartAsync();
+    }
+
+    private async Task OnServerMessageReceived(WebPubSubServerMessageEventArgs e)
+    {
+        var telemetryData = e.Message.Data.ToObjectFromJson<UmarellTelemetryData>();
+        _text = $"lat {telemetryData.Latitude}, lon: {telemetryData.Longitude}";
+        await InvokeAsync(StateHasChanged);
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_client is not null)
+            await _client.DisposeAsync();
+    }
+}
+
+

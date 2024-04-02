@@ -1,0 +1,48 @@
+﻿@page "/wasm-telemetry-data"
+@rendermode @(new InteractiveWebAssemblyRenderMode(prerender: false))
+@implements IAsyncDisposable
+
+@using Azure.Messaging.WebPubSub.Clients
+@using Dottor.Umarell.ParentalControl.Client.Models
+@inject HttpClient Http
+<h3>WasmTelemetryData</h3>
+
+<h5>@_text</h5>
+
+@code {
+    private WebPubSubClient? _client;
+    private string? _text;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var response = await Http.GetFromJsonAsync<NegotiateResponse>("negotiate");
+        if (!string.IsNullOrWhiteSpace(response.Url))
+        {
+            _client = new WebPubSubClient(new Uri(response.Url));
+            _client.ServerMessageReceived += OnServerMessageReceived;
+            await _client.StartAsync();
+        }
+        else
+        {
+            throw new Exception("Fail to negotiate websocket url");
+        }
+
+    }
+
+    private async Task OnServerMessageReceived(WebPubSubServerMessageEventArgs e)
+    {
+        var telemetryData = e.Message.Data.ToObjectFromJson<UmarellTelemetryData>();
+        _text = $"lat {telemetryData.Latitude}, lon: {telemetryData.Longitude}";
+        await InvokeAsync(StateHasChanged);
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_client is not null)
+            await _client.DisposeAsync();
+    }
+
+}
+
+
