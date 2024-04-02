@@ -14,7 +14,6 @@ builder.Services.AddRazorComponents()
 
 
 builder.Services.AddHostedService<UmarellSimulatorService>();
-builder.Services.AddScoped<NotificationUIService>();
 builder.Services.AddScoped<IGeofenceService, GeofenceService>();
 
 builder.Services.AddFluentUIComponents();

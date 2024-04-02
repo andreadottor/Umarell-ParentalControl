@@ -1,5 +1,7 @@
 ﻿@using Dottor.Umarell.ParentalControl.Client.Components
 @inherits LayoutComponentBase
+@inject IMessageService MessageService
+
 
 <div class="page">
     <div class="sidebar">
@@ -8,6 +10,8 @@
 
     <main>
         <div class="top-row px-4">
+            <NotificationCenter @rendermode="RenderModeForPage" />
+
             <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
         </div>
 
@@ -23,3 +27,11 @@
     <a class="dismiss">🗙</a>
 </div>
 
+
+@code {
+    [CascadingParameter]
+    private HttpContext HttpContext { get; set; } = default!;
+
+    private IComponentRenderMode? RenderModeForPage =>
+        HttpContext.GetEndpoint()?.Metadata.GetMetadata<RenderModeAttribute>()?.Mode;
+}

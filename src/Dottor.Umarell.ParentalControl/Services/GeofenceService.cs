@@ -12,21 +12,30 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
 
     public event Func<GeofenceEventArg, Task>? StateChanged;
 
-    private readonly ServiceBusClient    _client;
-    private readonly ServiceBusProcessor _processor;
+    private ServiceBusClient    _client;
+    private ServiceBusProcessor _processor;
+    private readonly IConfiguration      _configuration;
 
     public GeofenceService(IConfiguration configuration)
     {
-        string serviceBusConnectionString = configuration.GetConnectionString("ServiceBusConnectionString");
+        _configuration = configuration;
+    }
+
+    public async Task StartMonitoringAsync()
+    {
+        string serviceBusConnectionString = _configuration.GetConnectionString("ServiceBusConnectionString");
+
+        if (_processor is not null)
+            await _processor.DisposeAsync();
+
+        if (_client is not null)
+            await _client.DisposeAsync();
 
         _client = new ServiceBusClient(serviceBusConnectionString);
         _processor = _client.CreateProcessor("42", new ServiceBusProcessorOptions());
         _processor.ProcessMessageAsync += MessageHandler;
         _processor.ProcessErrorAsync += ErrorHandler;
-    }
 
-    public async Task StartMonitoringAsync()
-    {
         // start processing realtime data
         if (!_processor.IsProcessing)
             await _processor.StartProcessingAsync();

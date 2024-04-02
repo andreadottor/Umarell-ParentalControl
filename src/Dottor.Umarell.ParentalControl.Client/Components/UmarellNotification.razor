@@ -1,0 +1,39 @@
+﻿@implements IAsyncDisposable
+@inject IGeofenceService GeofenceService
+@inject IToastService ToastService
+@inject IMessageService MessageService
+
+<FluentToastProvider />
+<FluentDialogProvider />
+<FluentTooltipProvider />
+@* <FluentMessageBarProvider />
+ *@
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        GeofenceService.StateChanged += (e) =>
+        {
+            // ToastService.ShowWarning("L'umarell è uscito dall'area specificata.");
+
+            MessageService.ShowMessageBar(options =>
+        {
+            options.Intent = MessageIntent.Warning;
+            options.Title = $"Umarell warning";
+            options.Body = "L'umarell è uscito dall'area specificata.";
+            // options.Link = link;
+            options.Timestamp = DateTime.Now;
+            //options.Timeout = 3000;
+            options.Section = "MESSAGES_NOTIFICATION_CENTER";
+        });
+            return Task.CompletedTask;
+        };
+        await GeofenceService.StartMonitoringAsync();
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (GeofenceService is not null)
+            await GeofenceService.DisposeAsync();
+    }
+}

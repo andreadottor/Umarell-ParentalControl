@@ -1,0 +1,28 @@
+﻿@implements IDialogContentComponent<GlobalState>
+@inject IMessageService MessageService
+
+<div>
+
+    <FluentStack>
+        <FluentSpacer />
+        <FluentAnchor Appearance="@Appearance.Hypertext" 
+                      Href="" 
+                      OnClick="DismissAll">
+            Dismiss all
+        </FluentAnchor>
+    </FluentStack>
+
+    <br />
+
+    <FluentMessageBarProvider Section="MESSAGES_NOTIFICATION_CENTER" MaxMessageCount="-1" Type="@MessageType.Notification" />
+</div>
+
+@code {
+    [Parameter]
+    public GlobalState Content { get; set; } = default!;
+
+    private void DismissAll()
+    {
+        MessageService.Clear("MESSAGES_NOTIFICATION_CENTER");
+    }
+}
