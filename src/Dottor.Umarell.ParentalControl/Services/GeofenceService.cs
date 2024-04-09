@@ -12,9 +12,9 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
 
     public event Func<GeofenceEventArg, Task>? StateChanged;
 
-    private ServiceBusClient    _client;
-    private ServiceBusProcessor _processor;
-    private readonly IConfiguration      _configuration;
+    private ServiceBusClient        _client;
+    private ServiceBusProcessor     _processor;
+    private readonly IConfiguration _configuration;
 
     public GeofenceService(IConfiguration configuration)
     {

@@ -2,30 +2,29 @@
 @inject IGeofenceService GeofenceService
 @inject IToastService ToastService
 @inject IMessageService MessageService
+@inject IDialogService DialogService
 
 <FluentToastProvider />
 <FluentDialogProvider />
 <FluentTooltipProvider />
-@* <FluentMessageBarProvider />
- *@
+@* <FluentMessageBarProvider /> *@
 
 @code {
     protected override async Task OnInitializedAsync()
     {
         GeofenceService.StateChanged += (e) =>
         {
-            // ToastService.ShowWarning("L'umarell è uscito dall'area specificata.");
-
             MessageService.ShowMessageBar(options =>
-        {
-            options.Intent = MessageIntent.Warning;
-            options.Title = $"Umarell warning";
-            options.Body = "L'umarell è uscito dall'area specificata.";
-            // options.Link = link;
-            options.Timestamp = DateTime.Now;
-            //options.Timeout = 3000;
-            options.Section = "MESSAGES_NOTIFICATION_CENTER";
-        });
+            {
+                options.Intent = MessageIntent.Warning;
+                options.Title = $"Umarell warning";
+                options.Body = "L'umarell è uscito dall'area specificata.";
+                options.AllowDismiss = true;
+                options.Timestamp = DateTime.Now;
+                options.Section = "MESSAGES_NOTIFICATION_CENTER";
+            });
+            // ToastService.ShowWarning("L'umarell è uscito dall'area specificata.");
+            // DialogService.ShowWarning("L'umarell è uscito dall'area specificata.");
             return Task.CompletedTask;
         };
         await GeofenceService.StartMonitoringAsync();

@@ -3,9 +3,9 @@
 @inject IMessageService MessageService
 
 <FluentButton BackgroundColor="var(--neutral-layer-4)" OnClick="OpenNotificationCenterAsync" Title="Notification center">
-    @if (MessageService.Count("MESSAGES_NOTIFICATION_CENTER") > 0)
+    @if (MessageService.Count(MESSAGES_NOTIFICATION_CENTER) > 0)
     {
-        <FluentCounterBadge Count="@MessageService.Count("MESSAGES_NOTIFICATION_CENTER")"
+        <FluentCounterBadge Count="@MessageService.Count(MESSAGES_NOTIFICATION_CENTER)"
                             Max="9"
                             ShowOverflow="true"
                             BackgroundColor="@Color.Error"
@@ -24,6 +24,8 @@
 </FluentButton>
 
 @code {
+    public const string MESSAGES_NOTIFICATION_CENTER = "MESSAGES_NOTIFICATION_CENTER";
+
     private IDialogReference? _dialog;
 
     protected override void OnInitialized()

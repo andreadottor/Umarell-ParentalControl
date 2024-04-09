@@ -12,17 +12,17 @@
     <link rel="stylesheet" href="app.css" />
     <link rel="stylesheet" href="Dottor.Umarell.ParentalControl.styles.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <HeadOutlet  />
+    <HeadOutlet @rendermode="RenderModeForPage" />
 </head>
 
 <body>
     <Routes />
-    <script src="_framework/blazor.web.js"></script>
-    <script src="libs/leaflet/leaflet.js"></script>
 
     <UmarellNotification @rendermode="RenderModeForPage" />
-</body>
 
+    <script src="_framework/blazor.web.js"></script>
+    <script src="libs/leaflet/leaflet.js"></script>
+</body>
 </html>
 
 @code {

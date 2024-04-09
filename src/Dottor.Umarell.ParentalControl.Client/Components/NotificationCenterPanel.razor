@@ -5,16 +5,14 @@
 
     <FluentStack>
         <FluentSpacer />
-        <FluentAnchor Appearance="@Appearance.Hypertext" 
-                      Href="" 
-                      OnClick="DismissAll">
+        <FluentButton Appearance="Appearance.Lightweight" OnClick="DismissAll">
             Dismiss all
-        </FluentAnchor>
+        </FluentButton>
     </FluentStack>
 
     <br />
 
-    <FluentMessageBarProvider Section="MESSAGES_NOTIFICATION_CENTER" MaxMessageCount="-1" Type="@MessageType.Notification" />
+    <FluentMessageBarProvider Section="@NotificationCenter.MESSAGES_NOTIFICATION_CENTER" MaxMessageCount="-1" Type="@MessageType.Notification" />
 </div>
 
 @code {
@@ -23,6 +21,6 @@
 
     private void DismissAll()
     {
-        MessageService.Clear("MESSAGES_NOTIFICATION_CENTER");
+        MessageService.Clear(NotificationCenter.MESSAGES_NOTIFICATION_CENTER);
     }
 }
