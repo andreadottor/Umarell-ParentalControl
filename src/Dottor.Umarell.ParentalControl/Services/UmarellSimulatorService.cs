@@ -63,7 +63,7 @@ public class UmarellSimulatorService : BackgroundService
 
                 // TODO: da verificare la posizione
                 await SendUmarellGeofenceWarning(data, stoppingToken);
-                await Task.Delay(2000, stoppingToken);
+                await Task.Delay(3000, stoppingToken);
 
                 if (stoppingToken.IsCancellationRequested)
                     break;
