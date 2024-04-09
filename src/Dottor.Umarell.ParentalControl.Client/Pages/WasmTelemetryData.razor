@@ -3,6 +3,7 @@
 @implements IAsyncDisposable
 
 @inject HttpClient Http
+@inject IJSRuntime JSRuntime
 @inject IToastService ToastService
 
 @using Azure.Messaging.WebPubSub.Clients
@@ -12,46 +13,10 @@
 
 <h5>@_text</h5>
 
+<div id="map" @ref="_mapEl"></div>
+
 <FluentCard>
     <h2>Hello World!</h2>
     <FluentButton Appearance="@Appearance.Accent">Click Me</FluentButton>
 </FluentCard>
-
-@code {
-    private WebPubSubClient? _client;
-    private string? _text;
-
-
-    protected override async Task OnInitializedAsync()
-    {
-        var response = await Http.GetFromJsonAsync<NegotiateResponse>("negotiate");
-        if (!string.IsNullOrWhiteSpace(response.Url))
-        {
-            _client = new WebPubSubClient(new Uri(response.Url));
-            _client.ServerMessageReceived += OnServerMessageReceived;
-            await _client.StartAsync();
-        }
-        else
-        {
-            throw new Exception("Fail to negotiate websocket url");
-        }
-
-    }
-
-    private async Task OnServerMessageReceived(WebPubSubServerMessageEventArgs e)
-    {
-        var telemetryData = e.Message.Data.ToObjectFromJson<UmarellTelemetryData>();
-        _text = $"lat {telemetryData.Latitude}, lon: {telemetryData.Longitude}";
-        ToastService.ShowToast(ToastIntent.Info, _text);
-        await InvokeAsync(StateHasChanged);
-    }
-
-    public async ValueTask DisposeAsync()
-    {
-        if (_client is not null)
-            await _client.DisposeAsync();
-    }
-
-}
-
 

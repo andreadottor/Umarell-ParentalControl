@@ -1,38 +1,41 @@
-﻿namespace Dottor.Umarell.ParentalControl.Components.Pages;
+﻿namespace Dottor.Umarell.ParentalControl.Client.Pages;
 
 using Azure.Messaging.WebPubSub.Clients;
-using Azure.Messaging.WebPubSub;
 using Dottor.Umarell.ParentalControl.Client.Models;
 using Microsoft.AspNetCore.Components;
+using Microsoft.FluentUI.AspNetCore.Components;
 using Microsoft.JSInterop;
+using System.Net.Http.Json;
 
-public partial class ServerTelemetryData
+public partial class WasmTelemetryData
 {
-    private WebPubSubClient? _client;
-    private string? _text;
+    private WebPubSubClient?    _client;
+    private string?             _text;
     private IJSObjectReference? _module;
     private IJSObjectReference? _polyline;
     private IJSObjectReference? _mapJs;
     private ElementReference?   _mapEl;
 
-
     protected override async Task OnInitializedAsync()
     {
-        string webPubSubConnectionString = Configuration.GetConnectionString("WebPubSubConnectionString") ?? throw new ArgumentException("WebPubSubConnectionString is missing");
-        var serviceClient = new WebPubSubServiceClient(webPubSubConnectionString, "hub");
-        var url = serviceClient.GetClientAccessUri(userId: "42");
-
-        _client = new WebPubSubClient(url);
-        _client.ServerMessageReceived += OnServerMessageReceived;
-
-        await _client.StartAsync();
+        var response = await Http.GetFromJsonAsync<NegotiateResponse>("negotiate");
+        if (!string.IsNullOrWhiteSpace(response.Url))
+        {
+            _client = new WebPubSubClient(new Uri(response.Url));
+            _client.ServerMessageReceived += OnServerMessageReceived;
+            await _client.StartAsync();
+        }
+        else
+        {
+            throw new Exception("Fail to negotiate websocket url");
+        }
     }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
-            _module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./Components/Pages/ServerTelemetryData.razor.js");
+            _module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./Pages/WasmTelemetryData.razor.js");
             _mapJs = await _module.InvokeAsync<IJSObjectReference>("initMap", _mapEl, 41.884347835000028, 12.488813031000063);
         }
     }
@@ -41,10 +44,11 @@ public partial class ServerTelemetryData
     {
         var telemetryData = e.Message.Data.ToObjectFromJson<UmarellTelemetryData>();
         _text = $"lat {telemetryData.Latitude}, lon: {telemetryData.Longitude}";
+        //ToastService.ShowToast(ToastIntent.Info, _text);
 
         if (_module is not null)
         {
-            if (_polyline is null)
+            if(_polyline is null)
                 _polyline = await _module.InvokeAsync<IJSObjectReference>("createPolyline", _mapJs, telemetryData.Latitude, telemetryData.Longitude);
             else
                 await _module.InvokeVoidAsync("updateMap",
@@ -59,17 +63,13 @@ public partial class ServerTelemetryData
 
     public async ValueTask DisposeAsync()
     {
-        try
+        if (_polyline is not null) await _polyline.DisposeAsync();
+        if (_mapJs is not null) await _mapJs.DisposeAsync();
+        if (_module is not null) await _module.DisposeAsync();
+        if (_client is not null)
         {
-            if (_polyline is not null) await _polyline.DisposeAsync();
-            if (_mapJs is not null) await _mapJs.DisposeAsync();
-            if (_module is not null) await _module.DisposeAsync();
-            if (_client is not null)
-            {
-                _client.ServerMessageReceived -= OnServerMessageReceived;
-                await _client.DisposeAsync();
-            }
+            _client.ServerMessageReceived -= OnServerMessageReceived;
+            await _client.DisposeAsync();
         }
-        catch (JSDisconnectedException) { }
     }
 }
