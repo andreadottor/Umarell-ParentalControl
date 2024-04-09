@@ -12,7 +12,7 @@
 @code {
     protected override async Task OnInitializedAsync()
     {
-        GeofenceService.StateChanged += (e) =>
+        GeofenceService.OutOfZone += (e) =>
         {
             MessageService.ShowMessageBar(options =>
             {

@@ -2,6 +2,7 @@ using Azure.Messaging.WebPubSub;
 using Dottor.Umarell.ParentalControl.Client.Models;
 using Dottor.Umarell.ParentalControl.Client.Services;
 using Dottor.Umarell.ParentalControl.Components;
+using Dottor.Umarell.ParentalControl.Hubs;
 using Dottor.Umarell.ParentalControl.Services;
 using Microsoft.FluentUI.AspNetCore.Components;
 
@@ -13,7 +14,9 @@ builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 
 
-builder.Services.AddHostedService<UmarellSimulatorService>();
+builder.Services.AddHostedService<GeofenceWorker>();
+builder.Services.AddHostedService<UmarellSimulatorWorker>();
+
 builder.Services.AddScoped<IGeofenceService, GeofenceService>();
 
 builder.Services.AddFluentUIComponents();
@@ -44,6 +47,7 @@ app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
     .AddAdditionalAssemblies(typeof(Dottor.Umarell.ParentalControl.Client._Imports).Assembly);
 
+app.MapHub<NotificationHub>("/notification-hub");
 
 // return the Client Access URL with negotiate endpoint
 app.MapGet("/negotiate", (HttpContext context, IConfiguration configuration) =>
@@ -58,5 +62,6 @@ app.MapGet("/negotiate", (HttpContext context, IConfiguration configuration) =>
         Url = serviceClient.GetClientAccessUri(userId: "42").AbsoluteUri
     };
 });
+
 
 app.Run();

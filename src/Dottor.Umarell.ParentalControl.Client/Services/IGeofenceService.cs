@@ -4,7 +4,7 @@ using Dottor.Umarell.ParentalControl.Client.Models;
 
 public interface IGeofenceService : IAsyncDisposable
 {
-    event Func<GeofenceEventArg, Task>? StateChanged;
+    event Func<GeofenceEventArg, Task>? OutOfZone;
 
     Task StartMonitoringAsync();
 

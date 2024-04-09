@@ -11,6 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Azure.Messaging.WebPubSub.Client" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.4" />
     <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components" Version="4.6.0" />
     <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components.Icons" Version="4.6.0" />
   </ItemGroup>

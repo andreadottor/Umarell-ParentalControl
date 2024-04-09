@@ -2,26 +2,27 @@
 
 using Azure.Messaging.ServiceBus;
 using Dottor.Umarell.ParentalControl.Client.Models;
-using Dottor.Umarell.ParentalControl.Client.Services;
-using Microsoft.Extensions.Configuration;
+using Dottor.Umarell.ParentalControl.Hubs;
+using Microsoft.AspNetCore.SignalR;
 using System.Diagnostics;
 using System.Text.Json;
+using System.Threading;
+using System.Threading.Tasks;
 
-public class GeofenceService : IGeofenceService, IAsyncDisposable
+public class GeofenceWorker : BackgroundService
 {
+    private ServiceBusClient                      _client;
+    private ServiceBusProcessor                   _processor;
+    private readonly IConfiguration               _configuration;
+    private readonly IHubContext<NotificationHub> _hubContext;
 
-    public event Func<GeofenceEventArg, Task>? OutOfZone;
-
-    private ServiceBusClient        _client;
-    private ServiceBusProcessor     _processor;
-    private readonly IConfiguration _configuration;
-
-    public GeofenceService(IConfiguration configuration)
+    public GeofenceWorker(IConfiguration configuration, IHubContext<NotificationHub> hubContext)
     {
         _configuration = configuration;
+        _hubContext = hubContext;
     }
 
-    public async Task StartMonitoringAsync()
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
         string serviceBusConnectionString = _configuration.GetConnectionString("ServiceBusConnectionString");
 
@@ -32,7 +33,7 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
             await _client.DisposeAsync();
 
         _client = new ServiceBusClient(serviceBusConnectionString);
-        _processor = _client.CreateProcessor("42", "InteractiveServer", new ServiceBusProcessorOptions());
+        _processor = _client.CreateProcessor("42", "InteractiveWebAssembly", new ServiceBusProcessorOptions());
         _processor.ProcessMessageAsync += MessageHandler;
         _processor.ProcessErrorAsync += ErrorHandler;
 
@@ -49,8 +50,7 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
         // complete the message. messages is deleted from the subscription. 
         await args.CompleteMessageAsync(args.Message);
 
-        if (OutOfZone is not null)
-            await OutOfZone.Invoke(new() { Data = telemetry });
+        await _hubContext.Clients.All.SendAsync("OutOfZone", telemetry);
     }
 
     private Task ErrorHandler(ProcessErrorEventArgs args)

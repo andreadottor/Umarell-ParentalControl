@@ -1,20 +1,41 @@
 ﻿namespace Dottor.Umarell.ParentalControl.Client.Services;
 
 using Dottor.Umarell.ParentalControl.Client.Models;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.SignalR.Client;
+using Microsoft.FluentUI.AspNetCore.Components;
 using System;
 using System.Threading.Tasks;
 
 public class GeofenceRemoteService : IGeofenceService
 {
-    public event Func<GeofenceEventArg, Task>? StateChanged;
+    public event Func<GeofenceEventArg, Task>? OutOfZone;
 
-    public ValueTask DisposeAsync()
+    private readonly NavigationManager _navigationManager;
+    private readonly HubConnection _hubConnection;
+
+    public GeofenceRemoteService(NavigationManager navigation)
     {
-        return ValueTask.CompletedTask;
+        _navigationManager = navigation;
+        _hubConnection = new HubConnectionBuilder()
+                            .WithUrl(_navigationManager.ToAbsoluteUri("/notification-hub"))
+                            .Build();
     }
 
-    public Task StartMonitoringAsync()
+    public async Task StartMonitoringAsync()
     {
-        return Task.CompletedTask;
+        _hubConnection.On<UmarellTelemetryData>("OutOfZone", async (telemetry) =>
+        {
+            if (OutOfZone is not null)
+                await OutOfZone.Invoke(new() { Data = telemetry });
+        });
+
+        await _hubConnection.StartAsync();
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if(_hubConnection is not null)
+            await _hubConnection.DisposeAsync();
     }
 }

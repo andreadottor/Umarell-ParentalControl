@@ -11,18 +11,18 @@ using Azure.Core;
 using Dottor.Umarell.ParentalControl.Client.Models;
 using Azure.Messaging.ServiceBus;
 
-public class UmarellSimulatorService : BackgroundService
+public class UmarellSimulatorWorker : BackgroundService
 {
 
     private readonly WebPubSubServiceClient           _pubSubClient;
     private readonly ServiceBusClient                 _serviceBusClient;
     private readonly ServiceBusSender                 _serviceBusSender;
-    private readonly ILogger<UmarellSimulatorService> _logger;
+    private readonly ILogger<UmarellSimulatorWorker> _logger;
 
-    private bool _outOfRangeSent = false;
+    private bool _outOfZoneSent = false;
 
-    public UmarellSimulatorService(IConfiguration configuration,
-                                   ILogger<UmarellSimulatorService> logger)
+    public UmarellSimulatorWorker(IConfiguration configuration,
+                                   ILogger<UmarellSimulatorWorker> logger)
     {
         _logger = logger;
         string? webPubSubConnectionString  = configuration.GetConnectionString("WebPubSubConnectionString");
@@ -89,12 +89,11 @@ public class UmarellSimulatorService : BackgroundService
 
     private async Task SendUmarellGeofenceWarning(UmarellTelemetryData data, CancellationToken stoppingToken)
     {
-        if (_outOfRangeSent) return;
-
+        //if (_outOfZoneSent) return;
         var json = JsonSerializer.Serialize(data);
         var message = new ServiceBusMessage(Encoding.UTF8.GetBytes(json));
         await _serviceBusSender.SendMessageAsync(message, stoppingToken);
-        _outOfRangeSent = true;
+        _outOfZoneSent = true;
 
         if (_logger.IsEnabled(LogLevel.Information))
             _logger.LogInformation("SendUmarellGeofenceWarning: {data}", data);
