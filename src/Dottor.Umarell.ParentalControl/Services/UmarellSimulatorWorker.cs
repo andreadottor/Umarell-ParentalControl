@@ -10,6 +10,7 @@ using Azure.Messaging.WebPubSub;
 using Azure.Core;
 using Dottor.Umarell.ParentalControl.Client.Models;
 using Azure.Messaging.ServiceBus;
+using Microsoft.Azure.ServiceBus.Management;
 
 public class UmarellSimulatorWorker : BackgroundService
 {
@@ -17,8 +18,9 @@ public class UmarellSimulatorWorker : BackgroundService
     private readonly WebPubSubServiceClient           _pubSubClient;
     private readonly ServiceBusClient                 _serviceBusClient;
     private readonly ServiceBusSender                 _serviceBusSender;
-    private readonly ILogger<UmarellSimulatorWorker> _logger;
-    private readonly string                          _topicName = "42";
+    private ManagementClient                          _managementClient;
+    private readonly ILogger<UmarellSimulatorWorker>  _logger;
+    private readonly string                           _topicName = "42";
 
     private bool _outOfZoneSent = false;
 
@@ -31,13 +33,21 @@ public class UmarellSimulatorWorker : BackgroundService
         ArgumentNullException.ThrowIfNullOrWhiteSpace(serviceBusConnectionString, nameof(serviceBusConnectionString));
 
         _pubSubClient     = new WebPubSubServiceClient(webPubSubConnectionString, "hub");
-        
+        _managementClient = new ManagementClient(serviceBusConnectionString);
+
         _serviceBusClient = new ServiceBusClient(serviceBusConnectionString);
         _serviceBusSender = _serviceBusClient.CreateSender(_topicName);
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
+        // HACK: delete all Service Bus Subscriptions at startup
+        var subscriptions = await _managementClient.GetSubscriptionsAsync(_topicName);
+        foreach (var item in subscriptions)
+        {
+            await _managementClient.DeleteSubscriptionAsync(_topicName, item.SubscriptionName, stoppingToken);
+        }
+
         await SimulateGpxRouteAsync(stoppingToken);
     }
 
