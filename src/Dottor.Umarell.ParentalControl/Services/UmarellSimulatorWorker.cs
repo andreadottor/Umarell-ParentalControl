@@ -18,11 +18,11 @@ public class UmarellSimulatorWorker : BackgroundService
     private readonly ServiceBusClient                 _serviceBusClient;
     private readonly ServiceBusSender                 _serviceBusSender;
     private readonly ILogger<UmarellSimulatorWorker> _logger;
+    private readonly string                          _topicName = "42";
 
     private bool _outOfZoneSent = false;
 
-    public UmarellSimulatorWorker(IConfiguration configuration,
-                                   ILogger<UmarellSimulatorWorker> logger)
+    public UmarellSimulatorWorker(IConfiguration configuration, ILogger<UmarellSimulatorWorker> logger)
     {
         _logger = logger;
         string? webPubSubConnectionString  = configuration.GetConnectionString("WebPubSubConnectionString");
@@ -33,7 +33,7 @@ public class UmarellSimulatorWorker : BackgroundService
         _pubSubClient     = new WebPubSubServiceClient(webPubSubConnectionString, "hub");
         
         _serviceBusClient = new ServiceBusClient(serviceBusConnectionString);
-        _serviceBusSender = _serviceBusClient.CreateSender("42");
+        _serviceBusSender = _serviceBusClient.CreateSender(_topicName);
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -76,17 +76,23 @@ public class UmarellSimulatorWorker : BackgroundService
         }
     }
 
+    /// <summary>
+    /// Send message with Azure Web PubSub
+    /// </summary>
     private async Task SendTelemetryDataAsync(UmarellTelemetryData data, CancellationToken stoppingToken)
     {
         var json = JsonSerializer.Serialize(data);
 
         var request = RequestContent.Create(json);
-        await _pubSubClient.SendToUserAsync("42", request, ContentType.ApplicationJson);
+        await _pubSubClient.SendToUserAsync(_topicName, request, ContentType.ApplicationJson);
 
         if (_logger.IsEnabled(LogLevel.Information))
             _logger.LogInformation("SendTelemetryDataAsync: {data}", data);
     }
 
+    /// <summary>
+    /// Send event with Azure Service Bus
+    /// </summary>
     private async Task SendUmarellGeofenceWarning(UmarellTelemetryData data, CancellationToken stoppingToken)
     {
         //if (_outOfZoneSent) return;
@@ -99,6 +105,9 @@ public class UmarellSimulatorWorker : BackgroundService
             _logger.LogInformation("SendUmarellGeofenceWarning: {data}", data);
     }
 
+    /// <summary>
+    /// Calculate distance from two coordinates
+    /// </summary>
     private double GetDistance(double startLat, double startLon, double endLat, double endLon)
     {
         var d1 = startLat * (Math.PI / 180.0);

@@ -3,6 +3,7 @@
 using Azure.Messaging.ServiceBus;
 using Dottor.Umarell.ParentalControl.Client.Models;
 using Dottor.Umarell.ParentalControl.Client.Services;
+using Microsoft.Azure.ServiceBus.Management;
 using Microsoft.Extensions.Configuration;
 using System.Diagnostics;
 using System.Text.Json;
@@ -12,18 +13,26 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
 
     public event Func<GeofenceEventArg, Task>? OutOfZone;
 
-    private ServiceBusClient        _client;
-    private ServiceBusProcessor     _processor;
-    private readonly IConfiguration _configuration;
+    private ServiceBusClient                  _client;
+    private ManagementClient                  _managementClient;
+    private ServiceBusProcessor               _processor;
 
-    public GeofenceService(IConfiguration configuration)
+    private readonly ILogger<GeofenceService> _logger;
+    private readonly IConfiguration           _configuration;
+    private readonly string                   _subscriptionName;
+    private readonly string                   _topicName = "42";
+
+    public GeofenceService(IConfiguration configuration, ILogger<GeofenceService> logger)
     {
         _configuration = configuration;
+        _subscriptionName = Guid.NewGuid().ToString();
+        _logger = logger;
     }
 
     public async Task StartMonitoringAsync()
     {
-        string serviceBusConnectionString = _configuration.GetConnectionString("ServiceBusConnectionString");
+        string? serviceBusConnectionString = _configuration.GetConnectionString("ServiceBusConnectionString");
+        ArgumentNullException.ThrowIfNullOrWhiteSpace(serviceBusConnectionString, nameof(serviceBusConnectionString));
 
         if (_processor is not null)
             await _processor.DisposeAsync();
@@ -31,8 +40,21 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
         if (_client is not null)
             await _client.DisposeAsync();
 
+        // create a new subscription for current client
+        if (_managementClient is not null)
+        {
+            _managementClient = new ManagementClient(serviceBusConnectionString);
+
+            if (!await _managementClient.SubscriptionExistsAsync(_topicName, _subscriptionName))
+            {
+                var subscription  = new SubscriptionDescription(_topicName, _subscriptionName);
+                subscription.DefaultMessageTimeToLive = TimeSpan.FromMinutes(5);
+                await _managementClient.CreateSubscriptionAsync(subscription);
+            }
+        }
+
         _client = new ServiceBusClient(serviceBusConnectionString);
-        _processor = _client.CreateProcessor("42", "InteractiveServer", new ServiceBusProcessorOptions());
+        _processor = _client.CreateProcessor(_topicName, _subscriptionName, new ServiceBusProcessorOptions());
         _processor.ProcessMessageAsync += MessageHandler;
         _processor.ProcessErrorAsync += ErrorHandler;
 
@@ -55,13 +77,17 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
 
     private Task ErrorHandler(ProcessErrorEventArgs args)
     {
-        Debug.WriteLine(args.Exception.ToString());
+        if(_logger.IsEnabled(LogLevel.Error))
+            _logger.LogError(args.Exception, "Error on receive telemetry data from ServiceBus.");
+
         return Task.CompletedTask;
     }
 
-
     public async ValueTask DisposeAsync()
     {
+        if(_managementClient is not null)
+            await _managementClient.DeleteSubscriptionAsync(_topicName, _subscriptionName);
+
         await _processor.DisposeAsync();
         await _client.DisposeAsync();
     }
