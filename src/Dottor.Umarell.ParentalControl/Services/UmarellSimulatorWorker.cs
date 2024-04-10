@@ -64,7 +64,7 @@ public class UmarellSimulatorWorker : BackgroundService
                 await SendTelemetryDataAsync(data, stoppingToken);
 
                 // TODO: da verificare la posizione
-                var distance = GetDistance(41.889616063000062, 12.490587833000063, lat, lon);
+                var distance = GetDistance(41.884347835000028, 12.488813031000063, lat, lon);
                 if(distance > 700) 
                     await SendUmarellGeofenceWarning(data, stoppingToken);
 

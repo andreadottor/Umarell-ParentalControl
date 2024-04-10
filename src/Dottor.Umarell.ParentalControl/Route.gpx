@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="41.861776562000045" minlon="12.459260487000051" maxlat="41.942028617000062" maxlon="12.572393745000056"/></metadata>                  
-<trk>
+<!--<trk>
   <name>01 - Arco di Costantino - Circo Massimo</name>
   <extensions>
     <ogr:FolderPath>GRAB2 - Tracciato diviso per tipologia.kmz/Tracciato diviso per tipologia</ogr:FolderPath>
@@ -25,7 +25,7 @@
         <ele>0.0</ele>
     </trkpt>
   </trkseg>
-</trk>
+</trk>-->
 <trk>
   <name>02 - Circo Massimo - Terme di Caracalla</name>
   <extensions>
@@ -40,7 +40,7 @@
     <ogr:DIST_PARZI>0.9</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>1.5</ogr:DIST_TOTAL>
     <ogr:FONDO>Sterrato/Pista ciclabile</ogr:FONDO>
-    <ogr:CANTIERE>Una parte di via di Valle delle Camene va riservata al GRAB, mentre all’altezza delle Terme di Caracalla il percorso si ricongiunge alla ciclabile esistente.</ogr:CANTIERE>
+    <ogr:CANTIERE>Una parte di via di Valle delle Camene va riservata al GRAB, mentre allâ€™altezza delle Terme di Caracalla il percorso si ricongiunge alla ciclabile esistente.</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.884347835000028" lon="12.488813031000063">
@@ -119,7 +119,7 @@
     <ogr:DIST_PARZI>1.8</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>3.3</ogr:DIST_TOTAL>
     <ogr:FONDO>Sampietrini</ogr:FONDO>
-    <ogr:CANTIERE>Via di Porta San Sebastiano va definitivamente pedonalizzata, così come il primo tratto dell’Appia Antica. L’idea del GRAB è quella di dare continuità fisica alla Roma aarcheologica, dal Colosseo alla Regina Viarum.</ogr:CANTIERE>
+    <ogr:CANTIERE>Via di Porta San Sebastiano va definitivamente pedonalizzata, cosÃ¬ come il primo tratto dellâ€™Appia Antica. Lâ€™idea del GRAB Ã¨ quella di dare continuitÃ  fisica alla Roma aarcheologica, dal Colosseo alla Regina Viarum.</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.879509555000027" lon="12.496005212000057">
@@ -340,7 +340,7 @@
     <ogr:DIST_PARZI>2.0</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>7.0</ogr:DIST_TOTAL>
     <ogr:FONDO>Sterrato/Asfalto</ogr:FONDO>
-    <ogr:CANTIERE>Il GRAB richiede nell’ultima parte di questo tratto la realizzazione ex novo di un percorso ciclabile protetto.</ogr:CANTIERE>
+    <ogr:CANTIERE>Il GRAB richiede nellâ€™ultima parte di questo tratto la realizzazione ex novo di un percorso ciclabile protetto.</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.862867922000078" lon="12.520326834000059">
@@ -470,7 +470,7 @@
     <ogr:DIST_PARZI>1.2</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>8.2</ogr:DIST_TOTAL>
     <ogr:FONDO>Asfalto</ogr:FONDO>
-    <ogr:CANTIERE>Il GRAB richiede nell’ultima parte di questo tratto la realizzazione ex novo di un percorso ciclabile protetto.</ogr:CANTIERE>
+    <ogr:CANTIERE>Il GRAB richiede nellâ€™ultima parte di questo tratto la realizzazione ex novo di un percorso ciclabile protetto.</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.865698806000069" lon="12.53500753000003">
@@ -631,7 +631,7 @@
     <ogr:DIST_PARZI>1.0</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>10.5</ogr:DIST_TOTAL>
     <ogr:FONDO>Asfalto/Sterrato</ogr:FONDO>
-    <ogr:CANTIERE>C’è attualmente un breve itinerario in ciclabile, ma è completamente da rivedere. Sul resto di questo tratto va realizzato un percorso ciclabile protetto.</ogr:CANTIERE>
+    <ogr:CANTIERE>Câ€™Ã¨ attualmente un breve itinerario in ciclabile, ma Ã¨ completamente da rivedere. Sul resto di questo tratto va realizzato un percorso ciclabile protetto.</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.872445794000043" lon="12.546041415000047">
@@ -782,7 +782,7 @@
     <ogr:DIST_PARZI>1.7</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>12.2</ogr:DIST_TOTAL>
     <ogr:FONDO>Sterrato/Asfalto</ogr:FONDO>
-    <ogr:CANTIERE>Lo sterrato di Villa de Sanctis necessita di piccoli interventi di manutenzione. Via dei Gordiani è una strada di scorrimento dove è necessaria la realizzazione di un percorso ciclabile protetto.</ogr:CANTIERE>
+    <ogr:CANTIERE>Lo sterrato di Villa de Sanctis necessita di piccoli interventi di manutenzione. Via dei Gordiani Ã¨ una strada di scorrimento dove Ã¨ necessaria la realizzazione di un percorso ciclabile protetto.</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.877844918000051" lon="12.549210483000024">
@@ -987,7 +987,7 @@
     <ogr:DIST_PARZI>1.0</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>13.2</ogr:DIST_TOTAL>
     <ogr:FONDO>Sterrato/Asfalto</ogr:FONDO>
-    <ogr:CANTIERE>Il percorso nell’area verde necessita di manutenzione. Dove il GRAB si muove sulla viabilità ordinaria vanno messi in totale sicurezza gli attraversamenti e realizzate corsie ciclabili protette.</ogr:CANTIERE>
+    <ogr:CANTIERE>Il percorso nellâ€™area verde necessita di manutenzione. Dove il GRAB si muove sulla viabilitÃ  ordinaria vanno messi in totale sicurezza gli attraversamenti e realizzate corsie ciclabili protette.</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.890120956000032" lon="12.55396339400005">
@@ -1186,7 +1186,7 @@
     <ogr:DIST_PARZI>2.0</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>15.2</ogr:DIST_TOTAL>
     <ogr:FONDO>Asfalto</ogr:FONDO>
-    <ogr:CANTIERE>E’ necessaria la complessiva risistemazione del parco lineare TAV e la creazione di un percorso nettamente separato dal traffico veicolare lungo via Grotte di Gregna.</ogr:CANTIERE>
+    <ogr:CANTIERE>Eâ€™ necessaria la complessiva risistemazione del parco lineare TAV e la creazione di un percorso nettamente separato dal traffico veicolare lungo via Grotte di Gregna.</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.896185322000065" lon="12.552118638000024">
@@ -1334,7 +1334,7 @@
     <ogr:DIST_PARZI>0.7</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>15.9</ogr:DIST_TOTAL>
     <ogr:FONDO>Sterrato</ogr:FONDO>
-    <ogr:CANTIERE>Lo sterrato in questo tratto è in pessime condizioni. Necessaria una soluzione sicura per connettere l’area del Parco Baden Powell alla ciclabile che corre al centro della carreggiata di viale Palmiro Togliatti, una superstrada urbana.</ogr:CANTIERE>
+    <ogr:CANTIERE>Lo sterrato in questo tratto Ã¨ in pessime condizioni. Necessaria una soluzione sicura per connettere lâ€™area del Parco Baden Powell alla ciclabile che corre al centro della carreggiata di viale Palmiro Togliatti, una superstrada urbana.</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.905159823000076" lon="12.565954923000049">
@@ -1380,7 +1380,7 @@
     <ogr:DIST_PARZI>2.5</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>18.4</ogr:DIST_TOTAL>
     <ogr:FONDO>Asfalto</ogr:FONDO>
-    <ogr:CANTIERE>Per un lungo tratto c’è la ciclabile Togliatti, progettata male per via delle troppe deviazioni e delle continue interruzioni a causa delle intersezioni non sicure con la viabilità ordinaria. Va rivista tutta la ciclabile</ogr:CANTIERE>
+    <ogr:CANTIERE>Per un lungo tratto câ€™Ã¨ la ciclabile Togliatti, progettata male per via delle troppe deviazioni e delle continue interruzioni a causa delle intersezioni non sicure con la viabilitÃ  ordinaria. Va rivista tutta la ciclabile</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.908486310000058" lon="12.572393745000056">
@@ -2066,7 +2066,7 @@
     <ogr:DIST_PARZI>4.3</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>28.8</ogr:DIST_TOTAL>
     <ogr:FONDO>Pista ciclabile</ogr:FONDO>
-    <ogr:CANTIERE>Manutenzione ordinaria per la pista ciclabile e intervento per rendere uniforme la carreggiata. Vanno completamente realizzati tutti gli attraversamenti laddove il GRAB incrocia la viabilità ordinaria.</ogr:CANTIERE>
+    <ogr:CANTIERE>Manutenzione ordinaria per la pista ciclabile e intervento per rendere uniforme la carreggiata. Vanno completamente realizzati tutti gli attraversamenti laddove il GRAB incrocia la viabilitÃ  ordinaria.</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.933429293000074" lon="12.532913040000039">
@@ -2995,7 +2995,7 @@
     <ogr:DIST_PARZI>6.0</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>39.5</ogr:DIST_TOTAL>
     <ogr:FONDO>Asfalto/Pista ciclabile</ogr:FONDO>
-    <ogr:CANTIERE>Sul primo tratto del percorso, fino al Ponte della Musica, va realizzato un percorso ciclabile protetto. La ciclabile della seconda parte di questo tratto necessita di interventi di adeguamento per assicurare continuità al percorso e una sede sufficient</ogr:CANTIERE>
+    <ogr:CANTIERE>Sul primo tratto del percorso, fino al Ponte della Musica, va realizzato un percorso ciclabile protetto. La ciclabile della seconda parte di questo tratto necessita di interventi di adeguamento per assicurare continuitÃ  al percorso e una sede sufficient</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.918891015000042" lon="12.473918830000059">
@@ -3161,7 +3161,7 @@
     <ogr:DIST_PARZI>1.7</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>41.2</ogr:DIST_TOTAL>
     <ogr:FONDO>Sampietrini/Asfalto</ogr:FONDO>
-    <ogr:CANTIERE>Siamo in centro storico. Adeguamento della viabilità per consentire la circolazione in bici in totale sicurezza.</ogr:CANTIERE>
+    <ogr:CANTIERE>Siamo in centro storico. Adeguamento della viabilitÃ  per consentire la circolazione in bici in totale sicurezza.</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.90265306100008" lon="12.469731305000039">
@@ -3446,7 +3446,7 @@
     <ogr:DIST_PARZI>1.3</ogr:DIST_PARZI>
     <ogr:DIST_TOTAL>44.0</ogr:DIST_TOTAL>
     <ogr:FONDO>Sampietrini</ogr:FONDO>
-    <ogr:CANTIERE>Siamo in centro storico. Adeguamento della viabilità per consentire la circolazione in bici in totale sicurezza.</ogr:CANTIERE>
+    <ogr:CANTIERE>Siamo in centro storico. Adeguamento della viabilitÃ  per consentire la circolazione in bici in totale sicurezza.</ogr:CANTIERE>
   </extensions>
   <trkseg>
     <trkpt lat="41.893680257000028" lon="12.481860927000071">

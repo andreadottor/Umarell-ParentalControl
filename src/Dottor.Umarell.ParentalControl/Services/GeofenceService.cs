@@ -41,7 +41,7 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
             await _client.DisposeAsync();
 
         // create a new subscription for current client
-        if (_managementClient is not null)
+        if (_managementClient is null)
         {
             _managementClient = new ManagementClient(serviceBusConnectionString);
 

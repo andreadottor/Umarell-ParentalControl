@@ -26,6 +26,7 @@ public class GeofenceWorker : BackgroundService
         _configuration = configuration;
         _hubContext = hubContext;
         _logger = logger;
+        _subscriptionName = Guid.NewGuid().ToString();
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -40,7 +41,7 @@ public class GeofenceWorker : BackgroundService
             await _client.DisposeAsync();
 
         // create a new subscription for current client
-        if (_managementClient is not null)
+        if (_managementClient is null)
         {
             _managementClient = new ManagementClient(serviceBusConnectionString);
 

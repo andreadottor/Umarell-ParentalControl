@@ -7,6 +7,8 @@ export function initMap(el, lat, lon) {
         //attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
 
+    L.circle([lat, lon], { radius: 700 }).addTo(map);
+
     return map;
 }
 
