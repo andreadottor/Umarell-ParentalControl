@@ -1,5 +1,6 @@
 ﻿namespace Dottor.Umarell.ParentalControl.Services;
 
+using Azure.Core.Pipeline;
 using Azure.Messaging.ServiceBus;
 using Dottor.Umarell.ParentalControl.Client.Models;
 using Dottor.Umarell.ParentalControl.Client.Services;
@@ -47,8 +48,10 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
 
             if (!await _managementClient.SubscriptionExistsAsync(_topicName, _subscriptionName))
             {
-                var subscription  = new SubscriptionDescription(_topicName, _subscriptionName);
-                subscription.DefaultMessageTimeToLive = TimeSpan.FromMinutes(5);
+                var subscription = new SubscriptionDescription(_topicName, _subscriptionName)
+                {
+                    DefaultMessageTimeToLive = TimeSpan.FromMinutes(5)
+                };
                 await _managementClient.CreateSubscriptionAsync(subscription);
             }
         }
@@ -85,10 +88,18 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
 
     public async ValueTask DisposeAsync()
     {
-        if(_managementClient is not null)
+        if (_processor is not null)
+        {
+            await _processor.StopProcessingAsync();
+            _processor.ProcessMessageAsync -= MessageHandler;
+            _processor.ProcessErrorAsync   -= ErrorHandler;
+            await _processor.DisposeAsync();
+        }
+
+        if (_managementClient is not null)
             await _managementClient.DeleteSubscriptionAsync(_topicName, _subscriptionName);
 
-        await _processor.DisposeAsync();
-        await _client.DisposeAsync();
+        if (_client is not null)
+            await _client.DisposeAsync();
     }
 }

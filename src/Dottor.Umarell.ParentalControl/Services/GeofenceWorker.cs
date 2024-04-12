@@ -45,11 +45,13 @@ public class GeofenceWorker : BackgroundService
         {
             _managementClient = new ManagementClient(serviceBusConnectionString);
 
-            if (!await _managementClient.SubscriptionExistsAsync(_topicName, _subscriptionName))
+            if (!await _managementClient.SubscriptionExistsAsync(_topicName, _subscriptionName, stoppingToken))
             {
-                var subscription  = new SubscriptionDescription(_topicName, _subscriptionName);
-                subscription.DefaultMessageTimeToLive = TimeSpan.FromMinutes(5);
-                await _managementClient.CreateSubscriptionAsync(subscription);
+                var subscription = new SubscriptionDescription(_topicName, _subscriptionName)
+                {
+                    DefaultMessageTimeToLive = TimeSpan.FromMinutes(5)
+                };
+                await _managementClient.CreateSubscriptionAsync(subscription, stoppingToken);
             }
         }
 
@@ -83,13 +85,20 @@ public class GeofenceWorker : BackgroundService
         return Task.CompletedTask;
     }
 
-
     public async ValueTask DisposeAsync()
     {
+        if (_processor is not null)
+        {
+            await _processor.StopProcessingAsync();
+            _processor.ProcessMessageAsync -= MessageHandler;
+            _processor.ProcessErrorAsync   -= ErrorHandler;
+            await _processor.DisposeAsync();
+        }
+
         if (_managementClient is not null)
             await _managementClient.DeleteSubscriptionAsync(_topicName, _subscriptionName);
 
-        await _processor.DisposeAsync();
-        await _client.DisposeAsync();
+        if (_client is not null)
+            await _client.DisposeAsync();
     }
 }

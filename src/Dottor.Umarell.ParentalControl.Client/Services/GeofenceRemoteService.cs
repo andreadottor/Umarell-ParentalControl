@@ -16,9 +16,9 @@ public class GeofenceRemoteService : IGeofenceService
     public GeofenceRemoteService(NavigationManager navigation)
     {
         _navigationManager = navigation;
-        _hubConnection = new HubConnectionBuilder()
-                            .WithUrl(_navigationManager.ToAbsoluteUri("/notification-hub"))
-                            .Build();
+        _hubConnection     = new HubConnectionBuilder()
+                                 .WithUrl(_navigationManager.ToAbsoluteUri("/notification-hub"))
+                                 .Build();
     }
 
     public async Task StartMonitoringAsync()
