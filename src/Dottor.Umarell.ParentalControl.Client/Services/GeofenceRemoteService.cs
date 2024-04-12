@@ -3,7 +3,6 @@
 using Dottor.Umarell.ParentalControl.Client.Models;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
-using Microsoft.FluentUI.AspNetCore.Components;
 using System;
 using System.Threading.Tasks;
 
@@ -12,7 +11,7 @@ public class GeofenceRemoteService : IGeofenceService
     public event Func<GeofenceEventArg, Task>? OutOfZone;
 
     private readonly NavigationManager _navigationManager;
-    private readonly HubConnection _hubConnection;
+    private readonly HubConnection     _hubConnection;
 
     public GeofenceRemoteService(NavigationManager navigation)
     {

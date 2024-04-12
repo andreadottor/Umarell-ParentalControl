@@ -8,8 +8,8 @@ using Microsoft.JSInterop;
 
 public partial class ServerTelemetryData
 {
-    private WebPubSubClient? _client;
-    private string? _text;
+    private WebPubSubClient?    _client;
+    private string?             _text;
     private IJSObjectReference? _module;
     private IJSObjectReference? _polyline;
     private IJSObjectReference? _mapJs;
@@ -18,7 +18,7 @@ public partial class ServerTelemetryData
 
     protected override async Task OnInitializedAsync()
     {
-        string webPubSubConnectionString = Configuration.GetConnectionString("WebPubSubConnectionString") ?? throw new ArgumentException("WebPubSubConnectionString is missing");
+        var webPubSubConnectionString = Configuration.GetConnectionString("WebPubSubConnectionString") ?? throw new ArgumentException("WebPubSubConnectionString is missing");
         var serviceClient = new WebPubSubServiceClient(webPubSubConnectionString, "hub");
         var url = serviceClient.GetClientAccessUri(userId: "42");
 

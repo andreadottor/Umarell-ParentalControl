@@ -23,9 +23,9 @@ public class GeofenceWorker : BackgroundService
 
     public GeofenceWorker(IConfiguration configuration, IHubContext<NotificationHub> hubContext, ILogger<GeofenceWorker> logger)
     {
-        _configuration = configuration;
-        _hubContext = hubContext;
-        _logger = logger;
+        _configuration    = configuration;
+        _hubContext       = hubContext;
+        _logger           = logger;
         _subscriptionName = Guid.NewGuid().ToString();
     }
 
@@ -53,10 +53,10 @@ public class GeofenceWorker : BackgroundService
             }
         }
 
-        _client = new ServiceBusClient(serviceBusConnectionString);
+        _client    = new ServiceBusClient(serviceBusConnectionString);
         _processor = _client.CreateProcessor(_topicName, _subscriptionName, new ServiceBusProcessorOptions());
         _processor.ProcessMessageAsync += MessageHandler;
-        _processor.ProcessErrorAsync += ErrorHandler;
+        _processor.ProcessErrorAsync   += ErrorHandler;
 
         // start processing realtime data
         if (!_processor.IsProcessing)

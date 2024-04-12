@@ -5,7 +5,6 @@ using Dottor.Umarell.ParentalControl.Client.Models;
 using Dottor.Umarell.ParentalControl.Client.Services;
 using Microsoft.Azure.ServiceBus.Management;
 using Microsoft.Extensions.Configuration;
-using System.Diagnostics;
 using System.Text.Json;
 
 public class GeofenceService : IGeofenceService, IAsyncDisposable
@@ -24,9 +23,10 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
 
     public GeofenceService(IConfiguration configuration, ILogger<GeofenceService> logger)
     {
-        _configuration = configuration;
+        _configuration    = configuration;
+        _logger           = logger;
         _subscriptionName = Guid.NewGuid().ToString();
-        _logger = logger;
+        
     }
 
     public async Task StartMonitoringAsync()
@@ -58,7 +58,7 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
         _processor.ProcessMessageAsync += MessageHandler;
         _processor.ProcessErrorAsync += ErrorHandler;
 
-        // start processing realtime data
+        // start processing real-time data
         if (!_processor.IsProcessing)
             await _processor.StartProcessingAsync();
     }

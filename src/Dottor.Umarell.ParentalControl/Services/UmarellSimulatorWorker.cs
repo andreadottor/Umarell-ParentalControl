@@ -14,11 +14,10 @@ using Microsoft.Azure.ServiceBus.Management;
 
 public class UmarellSimulatorWorker : BackgroundService
 {
-
     private readonly WebPubSubServiceClient           _pubSubClient;
     private readonly ServiceBusClient                 _serviceBusClient;
     private readonly ServiceBusSender                 _serviceBusSender;
-    private ManagementClient                          _managementClient;
+    private readonly ManagementClient                 _managementClient;
     private readonly ILogger<UmarellSimulatorWorker>  _logger;
     private readonly string                           _topicName = "42";
 

@@ -52,7 +52,7 @@ app.MapHub<NotificationHub>("/notification-hub");
 // return the Client Access URL with negotiate endpoint
 app.MapGet("/negotiate", (HttpContext context, IConfiguration configuration) =>
 {
-    string webPubSubConnectionString = builder.Configuration.GetConnectionString("WebPubSubConnectionString");
+    string? webPubSubConnectionString = builder.Configuration.GetConnectionString("WebPubSubConnectionString");
     ArgumentNullException.ThrowIfNullOrWhiteSpace(webPubSubConnectionString, nameof(webPubSubConnectionString));
     
     var serviceClient = new WebPubSubServiceClient(webPubSubConnectionString, "hub");

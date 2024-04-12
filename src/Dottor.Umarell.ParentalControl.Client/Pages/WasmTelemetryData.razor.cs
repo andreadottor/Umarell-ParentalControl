@@ -3,7 +3,6 @@
 using Azure.Messaging.WebPubSub.Clients;
 using Dottor.Umarell.ParentalControl.Client.Models;
 using Microsoft.AspNetCore.Components;
-using Microsoft.FluentUI.AspNetCore.Components;
 using Microsoft.JSInterop;
 using System.Net.Http.Json;
 
@@ -44,7 +43,6 @@ public partial class WasmTelemetryData
     {
         var telemetryData = e.Message.Data.ToObjectFromJson<UmarellTelemetryData>();
         _text = $"lat {telemetryData.Latitude}, lon: {telemetryData.Longitude}";
-        //ToastService.ShowToast(ToastIntent.Info, _text);
 
         if (_module is not null)
         {
