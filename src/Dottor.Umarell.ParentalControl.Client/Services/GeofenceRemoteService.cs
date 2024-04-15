@@ -23,13 +23,16 @@ public class GeofenceRemoteService : IGeofenceService
 
     public async Task StartMonitoringAsync()
     {
-        _hubConnection.On<UmarellTelemetryData>("OutOfZone", async (telemetry) =>
+        if (_hubConnection.State == HubConnectionState.Disconnected)
         {
-            if (OutOfZone is not null)
-                await OutOfZone.Invoke(new() { Data = telemetry });
-        });
+            _hubConnection.On<UmarellTelemetryData>("OutOfZone", async (telemetry) =>
+            {
+                if (OutOfZone is not null)
+                    await OutOfZone.Invoke(new() { Data = telemetry });
+            });
 
-        await _hubConnection.StartAsync();
+            await _hubConnection.StartAsync();
+        }
     }
 
     public async ValueTask DisposeAsync()
