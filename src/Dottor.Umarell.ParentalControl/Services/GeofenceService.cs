@@ -57,10 +57,10 @@ public class GeofenceService : IGeofenceService, IAsyncDisposable
             }
         }
 
-        _client = new ServiceBusClient(serviceBusConnectionString);
+        _client    = new ServiceBusClient(serviceBusConnectionString);
         _processor = _client.CreateProcessor(_topicName, _subscriptionName, new ServiceBusProcessorOptions());
         _processor.ProcessMessageAsync += MessageHandler;
-        _processor.ProcessErrorAsync += ErrorHandler;
+        _processor.ProcessErrorAsync   += ErrorHandler;
 
         // start processing real-time data
         if (!_processor.IsProcessing)

@@ -19,7 +19,7 @@ public partial class WasmTelemetryData
     {
         var response = await Http.GetFromJsonAsync<NegotiateResponse>("negotiate");
         if (response is not null &&
-            string.IsNullOrWhiteSpace(response.Url))
+            !string.IsNullOrWhiteSpace(response.Url))
         {
             _client = new WebPubSubClient(new Uri(response.Url));
             _client.ServerMessageReceived += OnServerMessageReceived;
