@@ -18,9 +18,9 @@ public partial class ServerTelemetryData
 
     protected override async Task OnInitializedAsync()
     {
-        var webPubSubConnectionString = Configuration.GetConnectionString("WebPubSubConnectionString") ?? throw new ArgumentException("WebPubSubConnectionString is missing");
-        var serviceClient = new WebPubSubServiceClient(webPubSubConnectionString, "hub");
-        var url = serviceClient.GetClientAccessUri(userId: "42");
+        var cs            = Configuration.GetConnectionString("WebPubSubConnectionString") ?? throw new ArgumentException("WebPubSubConnectionString is missing");
+        var serviceClient = new WebPubSubServiceClient(cs, "hub");
+        var url           = serviceClient.GetClientAccessUri(userId: "42");
 
         _client = new WebPubSubClient(url);
         _client.ServerMessageReceived += OnServerMessageReceived;
@@ -33,7 +33,7 @@ public partial class ServerTelemetryData
         if (firstRender)
         {
             _module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./Components/Pages/ServerTelemetryData.razor.js");
-            _mapJs = await _module.InvokeAsync<IJSObjectReference>("initMap", _mapEl, 41.884347835000028, 12.488813031000063);
+            _mapJs  = await _module.InvokeAsync<IJSObjectReference>("initMap", _mapEl, 41.884347835000028, 12.488813031000063);
         }
     }
 
@@ -62,8 +62,8 @@ public partial class ServerTelemetryData
         try
         {
             if (_polyline is not null) await _polyline.DisposeAsync();
-            if (_mapJs is not null) await _mapJs.DisposeAsync();
-            if (_module is not null) await _module.DisposeAsync();
+            if (_mapJs is not null)    await _mapJs.DisposeAsync();
+            if (_module is not null)   await _module.DisposeAsync();
             if (_client is not null)
             {
                 _client.ServerMessageReceived -= OnServerMessageReceived;

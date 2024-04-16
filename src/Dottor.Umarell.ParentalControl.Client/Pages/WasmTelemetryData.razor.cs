@@ -18,15 +18,12 @@ public partial class WasmTelemetryData
     protected override async Task OnInitializedAsync()
     {
         var response = await Http.GetFromJsonAsync<NegotiateResponse>("negotiate");
-        if (!string.IsNullOrWhiteSpace(response.Url))
+        if (response is not null &&
+            string.IsNullOrWhiteSpace(response.Url))
         {
             _client = new WebPubSubClient(new Uri(response.Url));
             _client.ServerMessageReceived += OnServerMessageReceived;
             await _client.StartAsync();
-        }
-        else
-        {
-            throw new Exception("Fail to negotiate websocket url");
         }
     }
 
@@ -35,7 +32,7 @@ public partial class WasmTelemetryData
         if (firstRender)
         {
             _module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./Pages/WasmTelemetryData.razor.js");
-            _mapJs = await _module.InvokeAsync<IJSObjectReference>("initMap", _mapEl, 41.884347835000028, 12.488813031000063);
+            _mapJs  = await _module.InvokeAsync<IJSObjectReference>("initMap", _mapEl, 41.884347835000028, 12.488813031000063);
         }
     }
 
@@ -50,10 +47,10 @@ public partial class WasmTelemetryData
                 _polyline = await _module.InvokeAsync<IJSObjectReference>("createPolyline", _mapJs, telemetryData.Latitude, telemetryData.Longitude);
             else
                 await _module.InvokeVoidAsync("updateMap",
-                                          _mapJs,
-                                          _polyline,
-                                          telemetryData.Latitude,
-                                          telemetryData.Longitude);
+                                              _mapJs,
+                                              _polyline,
+                                              telemetryData.Latitude,
+                                              telemetryData.Longitude);
         }
 
         await InvokeAsync(StateHasChanged);
@@ -62,8 +59,8 @@ public partial class WasmTelemetryData
     public async ValueTask DisposeAsync()
     {
         if (_polyline is not null) await _polyline.DisposeAsync();
-        if (_mapJs is not null) await _mapJs.DisposeAsync();
-        if (_module is not null) await _module.DisposeAsync();
+        if (_mapJs is not null)    await _mapJs.DisposeAsync();
+        if (_module is not null)   await _module.DisposeAsync();
         if (_client is not null)
         {
             _client.ServerMessageReceived -= OnServerMessageReceived;

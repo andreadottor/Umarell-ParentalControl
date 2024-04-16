@@ -1,4 +1,4 @@
-﻿@implements IAsyncDisposable
+﻿@implements IDisposable
 @inject IGeofenceService GeofenceService
 @inject IToastService ToastService
 @inject IMessageService MessageService
@@ -34,12 +34,9 @@
         return Task.CompletedTask;
     }
 
-    public async ValueTask DisposeAsync()
+    public void Dispose()
     {
         if (GeofenceService is not null)
-        {
             GeofenceService.OutOfZone -= OutOfZoneCallback;
-            await GeofenceService.DisposeAsync();
-        }
     }
 }
