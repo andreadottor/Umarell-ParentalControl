@@ -49,7 +49,8 @@ public class GeofenceWorker : BackgroundService
             {
                 var subscription = new SubscriptionDescription(_topicName, _subscriptionName)
                 {
-                    DefaultMessageTimeToLive = TimeSpan.FromMinutes(5)
+                    DefaultMessageTimeToLive = TimeSpan.FromMinutes(5),
+                    AutoDeleteOnIdle         = TimeSpan.FromMinutes(10),
                 };
                 await _managementClient.CreateSubscriptionAsync(subscription, stoppingToken);
             }
