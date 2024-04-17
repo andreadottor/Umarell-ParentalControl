@@ -24,7 +24,7 @@
                 options.Title = $"Umarell warning";
                 options.Body = "L'umarell è uscito dall'area specificata.";
                 options.AllowDismiss = true;
-                options.Timestamp = DateTime.Now;
+                options.Timestamp = e.Data.Date.ToLocalTime();
                 options.Section = NotificationCenter.MESSAGES_NOTIFICATION_CENTER;
             });
 

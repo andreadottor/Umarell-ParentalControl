@@ -1,6 +1,5 @@
 ﻿namespace Dottor.Umarell.ParentalControl.Services;
 
-using Azure.Core.Pipeline;
 using Azure.Messaging.ServiceBus;
 using Dottor.Umarell.ParentalControl.Client.Models;
 using Dottor.Umarell.ParentalControl.Client.Services;
